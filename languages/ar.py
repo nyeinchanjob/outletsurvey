@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 {
 '!langcode!': 'ar',
@@ -20,10 +21,25 @@
 '?': '?',
 '@markmin\x01**Hello World**': '**مرحباً بالعالم**',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+# coding: utf8
+{
+'!langcode!': 'ar',
+'!langname!': 'Arabic',
+'%s %%(shop)': '%s %%(shop)',
+'%s %%(shop[0])': '%s %%(shop[0])',
+'%s %%{quark[0]}': '%s %%{quark[0]}',
+'%s %%{shop[0]}': '%s %%{shop[0]}',
+'%s %%{shop}': '%s %%{shop}',
+'%Y-%m-%d': '%Y-%m-%d',
+'%Y-%m-%d %H:%M:%S': '%Y-%m-%d %H:%M:%S',
+'@markmin\x01**Hello World**': '**مرحباً بالعالم**',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'About': 'نبذة',
 'Access Control': 'متحكمات الوصول',
 'Administrative Interface': 'واجهة التحكم',
 'Ajax Recipes': 'وصفات أجاكس',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
 'appadmin is disabled because insecure channel': 'appadmin is disabled because insecure channel',
 'Are you sure you want to delete this object?': 'هل أنت متأكد بحذف هذا الكائن ؟',
@@ -45,10 +61,20 @@
 'Community': 'المجتمع',
 'Components and Plugins': 'العناصر والإضافات',
 'Config.ini': 'Config.ini',
+=======
+'Are you sure you want to delete this object?': 'هل أنت متأكد بحذف هذا الكائن ؟',
+'Buy this book': 'أشتري هذا الكتاب',
+'Cannot be empty': 'لا يمكن بأن يكون خالي',
+'Check to delete': 'أختر للحذف',
+'Client IP': 'IP المستخدم',
+'Community': 'المجتمع',
+'Components and Plugins': 'العناصر والإضافات',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Controller': 'متحكم',
 'Copyright': 'الحقوق',
 'Created By': 'أنشئ بواسطة',
 'Created On': 'أنشئ في',
+<<<<<<< HEAD
 'Current request': 'Current request',
 'Current response': 'Current response',
 'Current session': 'Current session',
@@ -75,10 +101,23 @@
 'Download': 'تحميل',
 'E-mail': 'البريد الإلكتروني',
 'Edit current record': 'Edit current record',
+=======
+'customize me!': 'التخصيص',
+'Database': 'قاعدة البيانات',
+'DB Model': 'نموذج قاعدة البيانات',
+'Demo': 'تجربة',
+'Deployment Recipes': 'الوصفات المنشورة',
+'Description': 'الوصف',
+'Documentation': 'المستندات',
+"Don't know what to do?": "لا تعلم ماذا ستفعل ؟",
+'Download': 'تحميل',
+'E-mail': 'البريد الإلكتروني',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Email and SMS': 'البريد الإلكتروني والرسالة النصية',
 'enter an integer between %(min)g and %(max)g': 'أدخل عدد صحيح بين %(min)g و %(man)g',
 'enter date and time as %(format)s': 'أدخل التاريخ والوقت كالنمط %(format)',
 'Errors': 'الأخطاء',
+<<<<<<< HEAD
 'export as csv file': 'export as csv file',
 'FAQ': 'الأسئلة الشائعة',
 'First name': 'الأسم الأول',
@@ -86,6 +125,12 @@
 'Forms and Validators': 'الإستمارات والمدققات',
 'Free Applications': 'تطبيقات مجانية',
 'Graph Model': 'Graph Model',
+=======
+'FAQ': 'الأسئلة الشائعة',
+'First name': 'الأسم الأول',
+'Forms and Validators': 'الإستمارات والمدققات',
+'Free Applications': 'تطبيقات مجانية',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Group %(group_id)s created': 'المجموعة %(group_id)s قد أنشئت',
 'Group ID': 'هوية المجموعة',
 'Group uniquely assigned to user %(id)s': 'المجموعة مخصصة للمستخدم %(id)s',
@@ -93,6 +138,7 @@
 'Hello World': 'مرحباً بالعالم',
 'Hello World  ## comment': ' مرحباً بالعالم',
 'Hello World## comment': 'مرحباً بالعالم',
+<<<<<<< HEAD
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
 'Home': 'الرئيسية',
@@ -107,28 +153,42 @@
 'invalid request': 'invalid request',
 'Is Active': 'نشط',
 'Key': 'Key',
+=======
+'Home': 'الرئيسية',
+'How did you get here?': 'كيف أستطعت الوصول إلى هنا ؟',
+'Introduction': 'مقدمة',
+'Invalid email': 'بريد إلكتروني غير صالح',
+'Is Active': 'نشط',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Last name': 'أسم العائلة',
 'Layout': 'النسق',
 'Layout Plugins': 'نسّق الإضافات',
 'Layouts': 'لأنساق',
 'Live Chat': 'المحادثة الحيّة',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Logged in': 'تم تسجيل الدخول',
 'Logged out': 'تم تسجيل الخروج',
 'Login': 'تسجيل الدخول',
 'Logout': 'تسجيل الخروج',
 'Lost Password': 'فقدت كلمة المرور',
 'Lost password?': 'هل فقدت كلمة المرور ؟',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Manage Cache',
 'Memberships': 'Memberships',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': 'قالب القوائم',
 'Modified By': 'عًدلت بواسطة',
 'Modified On': 'عُدلت في',
 'My Sites': 'موقعي',
 'Name': 'الأسم',
+<<<<<<< HEAD
 'New Record': 'New Record',
 'new record inserted': 'new record inserted',
 'next %s rows': 'next %s rows',
@@ -148,10 +208,21 @@
 "Password fields don't match": 'حقول كلمة المرور لا تتطابق',
 'Permission': 'Permission',
 'Permissions': 'Permissions',
+=======
+'Object or table name': 'أسم الكائن أو الجدول',
+'Online examples': 'أمثلة على الأنترنت',
+'Origin': 'أصل',
+'Other Plugins': 'إضافات أخرى',
+'Other Recipes': 'وصفات أخرى',
+'Overview': 'نظرة عامة',
+'Password': 'كلمة المرور',
+"Password fields don't match": "حقول كلمة المرور لا تتطابق",
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'please input your password again': 'الرجاء إعادة إدخال كلمة المرور',
 'Plugins': 'الإضافات',
 'Powered by': 'مدعوم بواسطة',
 'Preface': 'المدخل',
+<<<<<<< HEAD
 'previous %s rows': 'previous %s rows',
 'Profile': 'الملف الشخصي',
 'pygraphviz library not found': 'pygraphviz library not found',
@@ -168,6 +239,13 @@
 'record does not exist': 'record does not exist',
 'Record ID': 'هوية السجل ',
 'Record id': 'Record id',
+=======
+'Profile': 'الملف الشخصي',
+'Python': 'بايثون',
+'Quick Examples': 'أمثلة سريعة',
+'Recipes': 'وصفات',
+'Record ID': 'هوية السجل ',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Register': 'التسجيل',
 'Registration identifier': 'مُعرف التسجيل',
 'Registration key': 'رمز التسجيل',
@@ -175,6 +253,7 @@
 'Remember me (for 30 days)': 'تذكرني ( إلى 30 يوم)',
 'Reset Password key': 'إعادة ظبط مفتاح كلمة المرور',
 'Role': 'دور',
+<<<<<<< HEAD
 'Roles': 'Roles',
 'Rows in Table': 'Rows in Table',
 'Rows selected': 'Rows selected',
@@ -205,20 +284,40 @@
 'Update:': 'Update:',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.',
 'User': 'User',
+=======
+'Semantic': 'دليل لفظي',
+'Services': 'خدمات',
+'Stylesheet': 'أسلوب النمط',
+'Support': 'الدعم',
+'The Core': 'النواة',
+'The output of the file is a dictionary that was rendered by the view %s': 'نتاج هذا الملف هو قاموس قًدم بواسطة العارض %s', 
+'The Views': 'المشاهدات',
+'This App': 'هذا التطبيق',
+'Timestamp': 'البصمة الزمنية',
+'Twitter': 'تويتر',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'User %(id)s Logged-in': 'المستخدم %(id)s قد سجل دخوله',
 'User %(id)s Logged-out': 'المستخدم %(id)s قد سجل خروجه',
 'User %(id)s Registered': 'المستخدم %(id)s مسجل',
 'User ID': 'هوية المستخدم',
+<<<<<<< HEAD
 'Users': 'Users',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'value already in database or empty': 'القيمة موجودة مسبقاً أو فارغة',
 'Verify Password': 'تأكيد كلمة المرور',
 'Videos': 'الفيديوهات',
 'View': 'العرض',
 'Welcome': 'مرحباً',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
 'Welcome to web2py!': 'مرحباً بكم في ويب2 باي !',
 'Which called the function %s located in the file %s': 'الدالة المسماة %s موجودة في ملف %s',
 'Working...': 'Working...',
+=======
+'Welcome to web2py!': 'مرحباً بكم في ويب2 باي !',
+'Which called the function %s located in the file %s': 'الدالة المسماة %s موجودة في ملف %s',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'You are successfully running web2py': 'أستطعت تثبيت web2py بنجاح !',
 'You can modify this application and adapt it to your needs': 'تستطيع تعديل هذا التطبيق لما يناسب إحتياجك',
 'You visited the url %s': ' ملقد زرت الرابط %s',

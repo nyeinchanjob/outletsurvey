@@ -11,6 +11,7 @@
 '%s selected': '%s označených',
 '%Y-%m-%d': '%d.%m.%Y',
 '%Y-%m-%d %H:%M:%S': '%d.%m.%Y %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '(requires internet access)': '(vyžaduje připojení k internetu)',
 '(requires internet access, experimental)': '(vyžaduje internetové připojení, experimentální)',
@@ -23,6 +24,14 @@
 '@markmin\x01An error occured, please [[reload %s]] the page': '@markmin\x01Došlo k chybě, prosím [[obnovte stránku %s]]',
 '@markmin\x01Searching: **%s** %%{file}': '@markmin\x01Hledání: **%s** %%{soubor}',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+'(requires internet access)': '(vyžaduje připojení k internetu)',
+'(requires internet access, experimental)': '(vyžaduje internetové připojení, experimentální)',
+'(something like "it-it")': '(například "cs-cz")',
+'@markmin\x01(file **gluon/contrib/plural_rules/%s.py** is not found)': '@markmin\x01(soubor **gluon/contrib/plural_rules/%s.py** nenalezen)',
+'@markmin\x01An error occured, please [[reload %s]] the page': '@markmin\x01Došlo k chybě, prosím [[obnovte stránku %s]]',
+'@markmin\x01Searching: **%s** %%{file}': '@markmin\x01Hledání: **%s** %%{soubor}',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'About': 'O programu',
 'About application': 'O aplikaci',
 'Access Control': 'Řízení přístupu',
@@ -32,12 +41,20 @@
 'Admin design page': 'Admin design page',
 'Admin language': 'jazyk rozhraní',
 'Administrative interface': 'pro administrátorské rozhraní klikněte sem',
+<<<<<<< HEAD
 'administrative interface': 'rozhraní pro správu',
 'Administrative Interface': 'Administrátorské rozhraní',
 'Administrator Password:': 'Administrátorské heslo:',
 'Ajax Recipes': 'Recepty s ajaxem',
 'An error occured, please %s the page': 'Došlo k chybě, prosím %s stránku',
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+'Administrative Interface': 'Administrátorské rozhraní',
+'administrative interface': 'rozhraní pro správu',
+'Administrator Password:': 'Administrátorské heslo:',
+'Ajax Recipes': 'Recepty s ajaxem',
+'An error occured, please %s the page': 'Došlo k chybě, prosím %s stránku',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'and rename it:': 'a přejmenovat na:',
 'appadmin': 'appadmin',
 'appadmin is disabled because insecure channel': 'appadmin je zakázaná bez zabezpečeného spojení',
@@ -66,8 +83,11 @@
 "Buy web2py's book": 'Koupit Web2py knihu',
 'Cache': 'Cache',
 'cache': 'cache',
+<<<<<<< HEAD
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Klíče cache',
 'cache, errors and sessions cleaned': 'cache, chyby a relace byly pročištěny',
 'can be a git repo': 'může to být git repo',
@@ -88,7 +108,10 @@
 'Click row to expand traceback': 'Pro rozbalení stopy, klikněte na řádek',
 'Click row to view a ticket': 'Pro zobrazení chyby (ticketu), klikněte na řádku...',
 'Client IP': 'IP adresa klienta',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'code': 'kód',
 'Code listing': 'Výpis kódu',
 'collapse/expand all': 'vše sbalit/rozbalit',
@@ -121,7 +144,10 @@
 'Database %s select': 'databáze %s výběr',
 'Database administration': 'Administrace databáze',
 'database administration': 'správa databáze',
+<<<<<<< HEAD
 'Database Administration (appadmin)': 'Database Administration (appadmin)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Date and Time': 'Datum a čas',
 'day': 'den',
 'db': 'db',
@@ -150,7 +176,10 @@
 'DISK': 'DISK',
 'Disk Cache Keys': 'Klíče diskové cache',
 'Disk Cleared': 'Disk smazán',
+<<<<<<< HEAD
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'docs': 'dokumentace',
 'Documentation': 'Dokumentace',
 "Don't know what to do?": 'Kde najdu další informace ?',
@@ -199,7 +228,10 @@
 'Find Next': 'Najít další',
 'Find Previous': 'Najít předchozí',
 'First name': 'Křestní jméno',
+<<<<<<< HEAD
 'Forget': 'Forget',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Forgot username?': 'Zapomněl jste svoje přihlašovací jméno?',
 'forgot username?': 'zapomněl jste svoje přihlašovací jméno?',
 'Forms and Validators': 'Formuláře a validátory',
@@ -214,7 +246,10 @@
 'go!': 'OK!',
 'Goto': 'Přejít na',
 'graph model': 'grafický model',
+<<<<<<< HEAD
 'Graph Model': 'Graph Model',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Group %(group_id)s created': 'Skupina %(group_id)s vytvořena',
 'Group ID': 'ID skupiny',
 'Groups': 'Skupiny',
@@ -222,7 +257,10 @@
 'Help': 'Nápověda',
 'Helping web2py': 'Podpořte Web2py',
 'Hide/Show Translated strings': 'Skrýt/Zobrazit přeložené texty',
+<<<<<<< HEAD
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Hits': 'Kolikrát dosaženo',
 'Home': 'Domovská stránka',
 'honored only if the expression evaluates to true': 'brát v potaz jen když se tato podmínka vyhodnotí kladně',
@@ -233,7 +271,10 @@
 'Import/Export': 'Import/Export',
 'includes': 'zahrnuje',
 'Index': 'Index',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': 'vložit nový záznam ',
 'insert new %s': 'vložit nový záznam %s',
 'inspect attributes': 'prohlédnout atributy',
@@ -267,7 +308,10 @@
 'loading...': 'nahrávám...',
 'locals': 'locals',
 'Locals##debug': 'Lokální proměnné',
+<<<<<<< HEAD
 'Location': 'Location',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Log In': 'Přihlásit se',
 'Logged in': 'Přihlášení proběhlo úspěšně',
 'Logged out': 'Odhlášení proběhlo úspěšně',
@@ -280,10 +324,14 @@
 'Lost password?': 'Zapomněl jste heslo?',
 'lost password?': 'zapomněl jste heslo?',
 'Manage': 'Spravovat',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Spravovat cache',
 'Memberships': 'Memberships',
+=======
+'Manage Cache': 'Spravovat cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': 'Model rozbalovací nabídky',
 'Models': 'Modely',
 'models': 'modely',
@@ -301,12 +349,18 @@
 'new record inserted': 'nový záznam byl založen',
 'New simple application': 'Vytvořit novou aplikaci',
 'next': 'další',
+<<<<<<< HEAD
 'next %s rows': 'next %s rows',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'next 100 rows': 'dalších 100 řádků',
 'No databases in this application': 'V této aplikaci nejsou žádné databáze',
 'No Interaction yet': 'Ještě žádná interakce nenastala',
 'No ticket_storage.txt found under /private folder': 'Soubor ticket_storage.txt v adresáři /private nenalezen',
+<<<<<<< HEAD
 'Number of entries: **%s**': 'Number of entries: **%s**',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Object or table name': 'Objekt či tabulka',
 'Old password': 'Původní heslo',
 'Online book': 'Online kniha',
@@ -320,8 +374,11 @@
 'Original/Translation': 'Originál/Překlad',
 'Other Plugins': 'Ostatní moduly',
 'Other Recipes': 'Ostatní zásuvné moduly',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Overview': 'Přehled',
 'Overwrite installed app': 'Přepsat instalovanou aplikaci',
 'Pack all': 'Zabalit',
@@ -331,8 +388,11 @@
 'Password': 'Heslo',
 "Password fields don't match": 'Hesla se neshodují',
 'Peeking at file': 'Sledování souboru',
+<<<<<<< HEAD
 'Permission': 'Permission',
 'Permissions': 'Permissions',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Please': 'Prosím',
 'Plugin "%s" in application': 'Plugin "%s" v aplikaci',
 'plugins': 'zásuvné moduly',
@@ -341,21 +401,32 @@
 'Plural-Forms:': 'Množná čísla:',
 'Powered by': 'Používá technologii',
 'Preface': 'Předmluva',
+<<<<<<< HEAD
 'previous %s rows': 'previous %s rows',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'previous 100 rows': 'předchozích 100 řádků',
 'Private files': 'Soukromé soubory',
 'private files': 'soukromé soubory',
 'profile': 'profil',
 'Project Progress': 'Vývoj projektu',
+<<<<<<< HEAD
 'pygraphviz library not found': 'pygraphviz library not found',
 'Python': 'Python',
 'Query:': 'Dotaz:',
 'Questions': 'Questions',
+=======
+'Python': 'Python',
+'Query:': 'Dotaz:',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Krátké příklady',
 'RAM': 'RAM',
 'RAM Cache Keys': 'Klíče RAM Cache',
 'Ram Cleared': 'RAM smazána',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Readme': 'Nápověda',
 'Recipes': 'Postupy jak na to',
 'Record': 'Záznam',
@@ -383,7 +454,10 @@
 'return': 'return',
 'revert': 'vrátit se k původnímu',
 'Role': 'Role',
+<<<<<<< HEAD
 'Roles': 'Roles',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Rows in Table': 'Záznamy v tabulce',
 'Rows selected': 'Záznamů zobrazeno',
 'rules are not defined': 'pravidla nejsou definována',
@@ -391,7 +465,10 @@
 'Running on %s': 'Běží na %s',
 'Save': 'Uložit',
 'Save file:': 'Uložit soubor:',
+<<<<<<< HEAD
 'Save model as...': 'Save model as...',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Save via Ajax': 'Uložit pomocí Ajaxu',
 'Saved file hash:': 'hash uloženého souboru:',
 'Semantic': 'Modul semantic',
@@ -399,7 +476,10 @@
 'session': 'session',
 'session expired': 'vypršela session',
 'Set Breakpoint on %s at line %s: %s': 'Bod přerušení nastaven v souboru %s na řádce %s: %s',
+<<<<<<< HEAD
 'Setting': 'Setting',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'shell': 'příkazová řádka',
 'Sign Up': 'Registrovat se',
 'Singular Form': 'Jednotné číslo',
@@ -424,10 +504,15 @@
 'successful': 'úspěšně',
 'Support': 'Podpora',
 'Sure you want to delete this object?': 'Opravdu chcete smazat tento objekt?',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': 'tabulka',
 'Table name': 'Název tabulky',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': 'tabulka',
+'Table name': 'Název tabulky',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Temporary': 'Dočasný',
 'test': 'test',
 'Testing application': 'Zkušební aplikace',
@@ -488,7 +573,10 @@
 'upload file:': 'nahrát soubor:',
 'upload plugin file:': 'nahrát soubor modulu:',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': 'Použijte (...)&(...) pro AND, (...)|(...) pro OR a ~(...) pro NOT pro sestavení složitějších dotazů.',
+<<<<<<< HEAD
 'User': 'User',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'User %(id)s Logged-in': 'Uživatel %(id)s přihlášen',
 'User %(id)s Logged-out': 'Uživatel %(id)s odhlášen',
 'User %(id)s Password changed': 'Uživatel %(id)s změnil heslo',
@@ -497,7 +585,10 @@
 'User %(id)s Username retrieved': 'Uživatel %(id)s si nachal zaslat přihlašovací jméno',
 'User ID': 'ID uživatele',
 'Username': 'Přihlašovací jméno',
+<<<<<<< HEAD
 'Users': 'Users',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'variables': 'proměnné',
 'Verify Password': 'Zopakujte heslo',
 'Version': 'Verze',
@@ -514,7 +605,10 @@
 'web2py upgrade': 'aktualizace Web2py',
 'web2py upgraded; please restart it': 'Web2py bylo aktualizováno; prosím restarujte jej',
 'Welcome': 'Vítejte',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Welcome to web2py': 'Vitejte ve Web2py aplikaci',
 'Welcome to web2py!': 'Vítejte ve Web2py aplikaci.',
 'Which called the function %s located in the file %s': 'Tím byla zavolána funkce %s ze souboru (kontroléru) %s.',

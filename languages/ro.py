@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+# coding: utf8
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 {
 '!=': '!=',
 '!langcode!': 'ro',
@@ -12,11 +16,15 @@
 '%s selected': '%s selectat(e)',
 '%Y-%m-%d': '%Y-%m-%d',
 '%Y-%m-%d %H:%M:%S': '%Y-%m-%d %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '(something like "it-it")': '(ceva ce seamănă cu "it-it")',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
 '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}',
 '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+'(something like "it-it")': '(ceva ce seamănă cu "it-it")',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 '1 day ago': '1 day ago',
 '1 week ago': '1 week ago',
 '<': '<',
@@ -24,8 +32,11 @@
 '=': '=',
 '>': '>',
 '>=': '>=',
+<<<<<<< HEAD
 '?': '?',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'A new version of web2py is available': 'O nouă versiune de web2py este disponibilă',
 'A new version of web2py is available: %s': 'O nouă versiune de web2py este disponibilă: %s',
 'About': 'Despre',
@@ -43,7 +54,10 @@
 'Administrative Interface': 'Interfață administrare',
 'Administrator Password:': 'Parolă administrator:',
 'Ajax Recipes': 'Rețete Ajax',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'And': 'Și',
 'and rename it (required):': 'și renumiți (obligatoriu):',
 'and rename it:': ' și renumiți:',
@@ -63,11 +77,16 @@
 'Available Databases and Tables': 'Baze de date și tabele disponibile',
 'Back': 'Înapoi',
 'Buy this book': 'Cumpără această carte',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'Cache': 'Cache',
 'cache': 'cache',
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'Cache': 'Cache',
+'cache': 'cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Chei cache',
 'cache, errors and sessions cleaned': 'cache, erori și sesiuni golite',
 'Cannot be empty': 'Nu poate fi vid',
@@ -86,12 +105,18 @@
 'Clear RAM': 'Clear RAM',
 'click to check for upgrades': 'Clic pentru a verifica dacă există upgrade-uri',
 'Client IP': 'IP client',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Community': 'Comunitate',
 'compile': 'compilare',
 'compiled application removed': 'aplicația compilată a fost ștearsă',
 'Components and Plugins': 'Componente și plugin-uri',
+<<<<<<< HEAD
 'Config.ini': 'Config.ini',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'contains': 'conține',
 'Controller': 'Controlor',
 'Controllers': 'Controlori',
@@ -110,7 +135,10 @@
 'Database': 'bază de date',
 'Database %s select': 'selectare bază de date %s',
 'database administration': 'administrare bază de date',
+<<<<<<< HEAD
 'Database Administration (appadmin)': 'Database Administration (appadmin)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Date and Time': 'Data și ora',
 'db': 'db',
 'DB Model': 'Model bază de date',
@@ -125,12 +153,18 @@
 'Description': 'Descriere',
 'design': 'design',
 'DESIGN': 'DESIGN',
+<<<<<<< HEAD
 'Design': 'Design',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Design for': 'Design pentru',
 'DISK': 'DISK',
 'Disk Cache Keys': 'Chei cache de disc',
 'Disk Cleared': 'Disk Cleared',
+<<<<<<< HEAD
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Documentație',
 "Don't know what to do?": 'Nu știți ce să faceți?',
 'done!': 'gata!',
@@ -172,19 +206,28 @@
 'file saved on %s': 'fișier salvat pe %s',
 'First name': 'Prenume',
 'Forbidden': 'Interzis',
+<<<<<<< HEAD
 'Forget': 'Forget',
 'Forms and Validators': 'Formulare și validatori',
 'Free Applications': 'Aplicații gratuite',
 'Functions with no doctests will result in [passed] tests.': 'Funcțiile fără doctests vor genera teste [trecute].',
 'Graph Model': 'Graph Model',
+=======
+'Forms and Validators': 'Formulare și validatori',
+'Free Applications': 'Aplicații gratuite',
+'Functions with no doctests will result in [passed] tests.': 'Funcțiile fără doctests vor genera teste [trecute].',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Group %(group_id)s created': 'Grup %(group_id)s creat',
 'Group ID': 'ID grup',
 'Group uniquely assigned to user %(id)s': 'Grup asociat în mod unic utilizatorului %(id)s',
 'Groups': 'Grupuri',
 'Hello World': 'Salutare lume',
 'help': 'ajutor',
+<<<<<<< HEAD
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Acasă',
 'How did you get here?': 'Cum ați ajuns aici?',
 'htmledit': 'editare html',
@@ -192,7 +235,10 @@
 'Import/Export': 'Import/Export',
 'includes': 'include',
 'Index': 'Index',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': 'adaugă nou',
 'insert new %s': 'adaugă nou %s',
 'Installed applications': 'Aplicații instalate',
@@ -220,8 +266,11 @@
 'License for': 'Licență pentru',
 'Live Chat': 'Chat live',
 'loading...': 'încarc...',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Logged in': 'Logat',
 'Logged out': 'Delogat',
 'Login': 'Autentificare',
@@ -232,10 +281,14 @@
 'Lost Password': 'Parolă pierdută',
 'Lost password?': 'Parolă pierdută?',
 'Main Menu': 'Meniu principal',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Manage Cache',
 'Memberships': 'Memberships',
+=======
+'Manage Cache': 'Manage Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': 'Model meniu',
 'merge': 'unește',
 'Models': 'Modele',
@@ -249,6 +302,7 @@
 'New password': 'Parola nouă',
 'New Record': 'Înregistrare nouă',
 'new record inserted': 'înregistrare nouă adăugată',
+<<<<<<< HEAD
 'next %s rows': 'next %s rows',
 'next 100 rows': 'următoarele 100 de linii',
 'NO': 'NU',
@@ -257,6 +311,13 @@
 'Object or table name': 'Obiect sau nume de tabel',
 'Old password': 'Parola veche',
 'Online book': 'Online book',
+=======
+'next 100 rows': 'următoarele 100 de linii',
+'NO': 'NU',
+'No databases in this application': 'Aplicație fără bază de date',
+'Object or table name': 'Obiect sau nume de tabel',
+'Old password': 'Parola veche',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'Exemple online',
 'Or': 'Sau',
 'or import from csv file': 'sau importă din fișier csv',
@@ -265,20 +326,27 @@
 'Original/Translation': 'Original/Traducere',
 'Other Plugins': 'Alte plugin-uri',
 'Other Recipes': 'Alte rețete',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Overview': 'Prezentare de ansamblu',
 'pack all': 'împachetează toate',
 'pack compiled': 'pachet compilat',
 'Password': 'Parola',
 "Password fields don't match": 'Câmpurile de parolă nu se potrivesc',
 'Peeking at file': 'Vizualizare fișier',
+<<<<<<< HEAD
 'Permission': 'Permission',
 'Permissions': 'Permissions',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'please input your password again': 'introduceți parola din nou',
 'Plugins': 'Plugin-uri',
 'Powered by': 'Pus în mișcare de',
 'Preface': 'Prefață',
+<<<<<<< HEAD
 'previous %s rows': 'previous %s rows',
 'previous 100 rows': '100 de linii anterioare',
 'Profile': 'Profil',
@@ -287,11 +355,21 @@
 'Query': 'Interogare',
 'Query:': 'Interogare:',
 'Questions': 'Questions',
+=======
+'previous 100 rows': '100 de linii anterioare',
+'Profile': 'Profil',
+'Python': 'Python',
+'Query': 'Interogare',
+'Query:': 'Interogare:',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Exemple rapide',
 'RAM': 'RAM',
 'RAM Cache Keys': 'Chei cache RAM',
 'Ram Cleared': 'Ram Cleared',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Rețete',
 'Record': 'înregistrare',
 'record does not exist': 'înregistrare inexistentă',
@@ -310,20 +388,30 @@
 'restore': 'restaurare',
 'revert': 'revenire',
 'Role': 'Rol',
+<<<<<<< HEAD
 'Roles': 'Roles',
 'Rows in Table': 'Linii în tabel',
 'Rows selected': 'Linii selectate',
 'save': 'salvare',
 'Save model as...': 'Save model as...',
+=======
+'Rows in Table': 'Linii în tabel',
+'Rows selected': 'Linii selectate',
+'save': 'salvare',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Save profile': 'Salvează profil',
 'Saved file hash:': 'Hash fișier salvat:',
 'Search': 'Căutare',
 'Semantic': 'Semantică',
 'Services': 'Servicii',
 'session expired': 'sesiune expirată',
+<<<<<<< HEAD
 'Setting': 'Setting',
 'shell': 'line de commandă',
 'Sign Up': 'Sign Up',
+=======
+'shell': 'line de commandă',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'site': 'site',
 'Size of cache:': 'Size of cache:',
 'some files could not be removed': 'anumite fișiere n-au putut fi șterse',
@@ -337,10 +425,15 @@
 'submit': 'submit',
 'Support': 'Suport',
 'Sure you want to delete this object?': 'Sigur ștergeți acest obiect?',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': 'tabel',
 'Table name': 'Nume tabel',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': 'tabel',
+'Table name': 'Nume tabel',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'test': 'test',
 'Testing application': 'Testare aplicație',
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': '"Interogarea (query)" este o condiție de tipul "db.tabel1.câmp1==\'valoare\'". Ceva de genul "db.tabel1.câmp1==db.tabel2.câmp2" generează un JOIN SQL.',
@@ -365,7 +458,10 @@
 'Timestamp': 'Moment în timp (timestamp)',
 'to  previous version.': 'la versiunea anterioară.',
 'too short': 'prea scurt',
+<<<<<<< HEAD
 'Traceback': 'Traceback',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'translation strings for the application': 'șiruri de caractere folosite la traducerea aplicației',
 'True': 'Adevărat',
 'try': 'încearcă',
@@ -387,7 +483,10 @@
 'Upload existing application': 'Încarcă aplicația existentă',
 'upload file:': 'încarcă fișier:',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': 'Folosiți (...)&(...) pentru AND, (...)|(...) pentru OR, și ~(...) pentru NOT, pentru a crea interogări complexe.',
+<<<<<<< HEAD
 'User': 'User',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'User %(id)s Logged-in': 'Utilizator %(id)s autentificat',
 'User %(id)s Logged-out': 'Utilizator %(id)s delogat',
 'User %(id)s Password changed': 'Parola utilizatorului %(id)s a fost schimbată',
@@ -395,7 +494,10 @@
 'User %(id)s Profile updated': 'Profil utilizator %(id)s actualizat',
 'User %(id)s Registered': 'Utilizator %(id)s înregistrat',
 'User ID': 'ID utilizator',
+<<<<<<< HEAD
 'Users': 'Users',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'value already in database or empty': 'Valoare existentă în baza de date sau vidă',
 'Verify Password': 'Verifică parola',
 'versioning': 'versiuni',
@@ -408,11 +510,17 @@
 'web2py Recent Tweets': 'Ultimele tweet-uri web2py',
 'Welcome': 'Bine ați venit',
 'Welcome %s': 'Bine ați venit %s',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
 'Welcome to web2py': 'Bun venit la web2py',
 'Welcome to web2py!': 'Bun venit la web2py!',
 'Which called the function %s located in the file %s': 'Care a apelat funcția %s prezentă în fișierul %s',
 'Working...': 'Working...',
+=======
+'Welcome to web2py': 'Bun venit la web2py',
+'Welcome to web2py!': 'Bun venit la web2py!',
+'Which called the function %s located in the file %s': 'Care a apelat funcția %s prezentă în fișierul %s',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'YES': 'DA',
 'You are successfully running web2py': 'Rulați cu succes web2py',
 'You can modify this application and adapt it to your needs': 'Puteți modifica și adapta aplicația nevoilor dvs.',

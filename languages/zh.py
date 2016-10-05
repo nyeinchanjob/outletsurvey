@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+# coding: utf8
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 {
 '!langcode!': 'zh-tw',
 '!langname!': '中文',
@@ -8,6 +12,7 @@
 '%s selected': '%s 已選擇',
 '%Y-%m-%d': '%Y-%m-%d',
 '%Y-%m-%d %H:%M:%S': '%Y-%m-%d %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '(something like "it-it")': '(格式類似 "zh-tw")',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
@@ -15,6 +20,9 @@
 '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
 '?': '?',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+'(something like "it-it")': '(格式類似 "zh-tw")',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'A new version of web2py is available': '新版的 web2py 已發行',
 'A new version of web2py is available: %s': '新版的 web2py 已發行: %s',
 'about': '關於',
@@ -27,7 +35,10 @@
 'Administrative interface': '點此處進入管理介面',
 'Administrator Password:': '管理員密碼:',
 'Ajax Recipes': 'Ajax Recipes',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'appadmin is disabled because insecure channel': '因為來自非安全通道,管理介面關閉',
 'Are you sure you want to delete file "%s"?': '確定要刪除檔案"%s"?',
 'Are you sure you want to delete this object?': 'Are you sure you want to delete this object?',
@@ -39,11 +50,16 @@
 'Authentication': '驗證',
 'Available Databases and Tables': '可提供的資料庫和資料表',
 'Buy this book': 'Buy this book',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'cache': '快取記憶體',
 'Cache': 'Cache',
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'cache': '快取記憶體',
+'Cache': 'Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Cache Keys',
 'Cannot be empty': '不可空白',
 'Cannot compile: there are errors in your app.        Debug it, correct errors and try again.': '無法編譯:應用程式中含有錯誤，請除錯後再試一次.',
@@ -55,10 +71,15 @@
 'Clear DISK': 'Clear DISK',
 'Clear RAM': 'Clear RAM',
 'Client IP': '客戶端網址(IP)',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
 'Community': 'Community',
 'Components and Plugins': 'Components and Plugins',
 'Config.ini': 'Config.ini',
+=======
+'Community': 'Community',
+'Components and Plugins': 'Components and Plugins',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Controller': '控件',
 'Controllers': '控件',
 'Copyright': '版權所有',
@@ -70,7 +91,10 @@
 'data uploaded': '資料已上傳',
 'Database': '資料庫',
 'Database %s select': '已選擇 %s 資料庫',
+<<<<<<< HEAD
 'Database Administration (appadmin)': 'Database Administration (appadmin)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Date and Time': '日期和時間',
 'db': 'db',
 'DB Model': '資料庫模組',
@@ -81,13 +105,19 @@
 'Deployment Recipes': 'Deployment Recipes',
 'Description': '描述',
 'DESIGN': '設計',
+<<<<<<< HEAD
 'Design': 'Design',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'design': '設計',
 'Design for': '設計為了',
 'DISK': 'DISK',
 'Disk Cache Keys': 'Disk Cache Keys',
 'Disk Cleared': 'Disk Cleared',
+<<<<<<< HEAD
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Documentation',
 "Don't know what to do?": "Don't know what to do?",
 'done!': '完成!',
@@ -108,6 +138,7 @@
 'export as csv file': '以逗號分隔檔(csv)格式匯出',
 'FAQ': 'FAQ',
 'First name': '名',
+<<<<<<< HEAD
 'Forget': 'Forget',
 'Forms and Validators': 'Forms and Validators',
 'Free Applications': 'Free Applications',
@@ -118,12 +149,23 @@
 'Hello World': '嗨! 世界',
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+'Forms and Validators': 'Forms and Validators',
+'Free Applications': 'Free Applications',
+'Functions with no doctests will result in [passed] tests.': '沒有 doctests 的函式會顯示 [passed].',
+'Group ID': '群組編號',
+'Groups': 'Groups',
+'Hello World': '嗨! 世界',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Home',
 'How did you get here?': 'How did you get here?',
 'import': 'import',
 'Import/Export': '匯入/匯出',
 'Index': '索引',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': '插入新資料',
 'insert new %s': '插入新資料 %s',
 'Installed applications': '已安裝應用程式',
@@ -143,8 +185,11 @@
 'Layouts': 'Layouts',
 'License for': '軟體版權為',
 'Live Chat': 'Live Chat',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'login': '登入',
 'Login': '登入',
 'Login to the Administrative Interface': '登入到管理員介面',
@@ -152,10 +197,14 @@
 'Logout': '登出',
 'Lost Password': '密碼遺忘',
 'Main Menu': '主選單',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Manage Cache',
 'Memberships': 'Memberships',
+=======
+'Manage Cache': 'Manage Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': '選單模組(menu)',
 'Models': '資料模組',
 'Modules': '程式模組',
@@ -163,24 +212,34 @@
 'Name': '名字',
 'New Record': '新紀錄',
 'new record inserted': '已插入新紀錄',
+<<<<<<< HEAD
 'next %s rows': 'next %s rows',
 'next 100 rows': '往後 100 筆',
 'NO': '否',
 'No databases in this application': '這應用程式不含資料庫',
 'Number of entries: **%s**': 'Number of entries: **%s**',
 'Online book': 'Online book',
+=======
+'next 100 rows': '往後 100 筆',
+'NO': '否',
+'No databases in this application': '這應用程式不含資料庫',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': '點此處進入線上範例',
 'or import from csv file': '或是從逗號分隔檔(CSV)匯入',
 'Origin': '原文',
 'Original/Translation': '原文/翻譯',
 'Other Plugins': 'Other Plugins',
 'Other Recipes': 'Other Recipes',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Overview': 'Overview',
 'Password': '密碼',
 "Password fields don't match": '密碼欄不匹配',
 'Peeking at file': '選擇檔案',
+<<<<<<< HEAD
 'Permission': 'Permission',
 'Permissions': 'Permissions',
 'Plugins': 'Plugins',
@@ -192,11 +251,22 @@
 'Python': 'Python',
 'Query:': '查詢:',
 'Questions': 'Questions',
+=======
+'Plugins': 'Plugins',
+'Powered by': '基於以下技術構建：',
+'Preface': 'Preface',
+'previous 100 rows': '往前 100 筆',
+'Python': 'Python',
+'Query:': '查詢:',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Quick Examples',
 'RAM': 'RAM',
 'RAM Cache Keys': 'RAM Cache Keys',
 'Ram Cleared': 'Ram Cleared',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Recipes',
 'Record': '紀錄',
 'record does not exist': '紀錄不存在',
@@ -209,6 +279,7 @@
 'Reset Password key': '重設密碼',
 'Resolve Conflict file': '解決衝突檔案',
 'Role': '角色',
+<<<<<<< HEAD
 'Roles': 'Roles',
 'Rows in Table': '在資料表裏的資料',
 'Rows selected': '筆資料被選擇',
@@ -218,6 +289,13 @@
 'Services': 'Services',
 'Setting': 'Setting',
 'Sign Up': 'Sign Up',
+=======
+'Rows in Table': '在資料表裏的資料',
+'Rows selected': '筆資料被選擇',
+'Saved file hash:': '檔案雜湊值已紀錄:',
+'Semantic': 'Semantic',
+'Services': 'Services',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Size of cache:': 'Size of cache:',
 'state': '狀態',
 'Static files': '靜態檔案',
@@ -227,10 +305,15 @@
 'Submit': '傳送',
 'Support': 'Support',
 'Sure you want to delete this object?': '確定要刪除此物件?',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': '資料表',
 'Table name': '資料表名稱',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': '資料表',
+'Table name': '資料表名稱',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Testing application': '測試中的應用程式',
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': '"查詢"是一個像 "db.表1.欄位1==\'值\'" 的條件式. 以"db.表1.欄位1==db.表2.欄位2"方式則相當於執行 JOIN SQL.',
 'The Core': 'The Core',
@@ -247,7 +330,10 @@
 'Ticket': '問題單',
 'Time in Cache (h:m:s)': 'Time in Cache (h:m:s)',
 'Timestamp': '時間標記',
+<<<<<<< HEAD
 'Traceback': 'Traceback',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Twitter': 'Twitter',
 'Unable to check for upgrades': '無法做升級檢查',
 'Unable to download': '無法下載',
@@ -256,21 +342,33 @@
 'Update:': '更新:',
 'Upload existing application': '更新存在的應用程式',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': '使用下列方式來組合更複雜的條件式, (...)&(...) 代表同時存在的條件, (...)|(...) 代表擇一的條件, ~(...)則代表反向條件.',
+<<<<<<< HEAD
 'User': 'User',
 'User %(id)s Logged-in': '使用者 %(id)s 已登入',
 'User %(id)s Registered': '使用者 %(id)s 已註冊',
 'User ID': '使用者編號',
 'Users': 'Users',
+=======
+'User %(id)s Logged-in': '使用者 %(id)s 已登入',
+'User %(id)s Registered': '使用者 %(id)s 已註冊',
+'User ID': '使用者編號',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Verify Password': '驗證密碼',
 'Videos': 'Videos',
 'View': '視圖',
 'Views': '視圖',
 'Welcome %s': '歡迎 %s',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
 'Welcome to web2py': '歡迎使用 web2py',
 'Welcome to web2py!': 'Welcome to web2py!',
 'Which called the function %s located in the file %s': 'Which called the function %s located in the file %s',
 'Working...': 'Working...',
+=======
+'Welcome to web2py': '歡迎使用 web2py',
+'Welcome to web2py!': 'Welcome to web2py!',
+'Which called the function %s located in the file %s': 'Which called the function %s located in the file %s',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'YES': '是',
 'You are successfully running web2py': 'You are successfully running web2py',
 'You can modify this application and adapt it to your needs': 'You can modify this application and adapt it to your needs',

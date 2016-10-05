@@ -1,15 +1,22 @@
 # -*- coding: utf-8 -*-
 {
+<<<<<<< HEAD
 '!=': '!=',
 '!langcode!': 'my-mm',
 '!langname!': 'မြန်မာ',
 '"update" is an optional expression like "field1=\'newvalue\'". You cannot update or delete the results of a JOIN': '"update" is an optional expression like "field1=\'newvalue\'". You cannot update or delete the results of a JOIN',
 '%(nrows)s records found': '%(nrows)s records found',
+=======
+'!langcode!': 'my-mm',
+'!langname!': 'မြန်မာ',
+'"update" is an optional expression like "field1=\'newvalue\'". You cannot update or delete the results of a JOIN': '"update" is an optional expression like "field1=\'newvalue\'". You cannot update or delete the results of a JOIN',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 '%s %%{row} deleted': '%s %%{row} ဖျက်ပြီးပြီ',
 '%s %%{row} updated': '%s %%{row} ပြင်ပြီးပြီ',
 '%s selected': '%s ခု ရွေးထားသည်',
 '%Y-%m-%d': '%Y-%m-%d',
 '%Y-%m-%d %H:%M:%S': '%Y-%m-%d %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '(requires internet access, experimental)': '(requires internet access, experimental)',
 '(something like "it-it")': '(something like "it-it")',
@@ -33,19 +40,30 @@
 'Add record to database': 'Add record to database',
 'Add this to the search as an AND term': 'Add this to the search as an AND term',
 'Add this to the search as an OR term': 'Add this to the search as an OR term',
+=======
+'(requires internet access, experimental)': '(requires internet access, experimental)',
+'(something like "it-it")': '(something like "it-it")',
+'@markmin\x01An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+'About': 'အကြောင်း',
+'Access Control': 'အသုံးပြု ခြင်းဆိုင်ရာ ထိန်းချုပ်ရန်',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Additional code for your application': 'Additional code for your application',
 'Admin language': 'Admin language',
 'administrative interface': 'administrative interface',
 'Administrative Interface': 'စီမံခန့်ခွဲရာ အင်တာဖေ့စ်',
 'Administrator Password:': 'Administrator Password:',
 'Ajax Recipes': 'Ajax Recipes',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'and rename it:': 'and rename it:',
 'appadmin is disabled because insecure channel': 'စိတ်မချရသော လမ်းကြောင်းမှ ဝင်ရောက်သဖြင့် appadmin ကို အသုံးပြု၍ မရပါ',
 'Application name:': 'Application name:',
 'are not used': 'အသုံးမပြုပါ',
 'are not used yet': 'အသုံးမပြုသေးပါ',
 'Are you sure you want to delete this object?': 'သင် ဒီအရာ ဖျက်ရန် သေချာပါသလား။',
+<<<<<<< HEAD
 'Area': 'ဧရိယာ',
 'Available Databases and Tables': 'အသုံးပြုနိုင်သော ဒေတာဘေစ့်များနှင့် ဇယားများ',
 'Back': '',
@@ -55,28 +73,44 @@
 'cache': 'cache',
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'Available Databases and Tables': 'အသုံးပြုနိုင်သော ဒေတာဘေစ့်များနှင့် ဇယားများ',
+'Buy this book': 'ဒီစာအုပ်ကို ဝယ်ပါ',
+'cache': 'cache',
+'Cache': 'Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Cache Keys',
 'can be a git repo': 'can be a git repo',
 'Cannot be empty': 'အလွတ် မဖြစ်ရပါ',
 'Change admin password': 'Change admin password',
 'Check to delete': 'ဖျက်ရန် စစ်ဆေးပါ',
 'Checking for upgrades...': 'အဆင့်မြှင့်တင်မှုများအတွက် စစ်ဆေးနေသည် ...',
+<<<<<<< HEAD
 'City(EN)': 'City(EN)',
 'City(MM)': 'City(MM)',
 'Clean': 'ရှင်းလင်း',
 'Clear': 'ရှင်းလင်း',
+=======
+'Clean': 'ရှင်းလင်းရန်',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Clear CACHE?': 'CACHE ကို ရှင်းလင်းမည်မှာ ဟုတ်ပါသလား။',
 'Clear DISK': 'DISK ကို ရှင်းလင်းမည်။',
 'Clear RAM': 'RAM ကို ရှင်းလင်းမည်။',
 'Client IP': 'Client IP',
+<<<<<<< HEAD
 'Close': 'Close',
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'ကိုကာ-ကိုလာ ပင်းယ ဗားဗရေ့ချ်စ် မြန်မာ လီမိတက်',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'collapse/expand all': 'collapse/expand all',
 'Community': 'အသိုင်းအဝိုင်း',
 'Compile': 'Compile',
 'Components and Plugins': 'Components and Plugins',
+<<<<<<< HEAD
 'Config.ini': 'Config.ini',
 'contains': 'contains',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Controller': 'ကွန်ထရိုလာ',
 'Controllers': 'ကွန်ထရိုလာများ',
 'controllers': 'controllers',
@@ -100,7 +134,10 @@
 'db': 'db',
 'DB Model': 'DB Model',
 'Debug': 'အမှားရှာရန်',
+<<<<<<< HEAD
 'Delete': 'ဖျက်',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Delete this file (you will be asked to confirm deletion)': 'Delete this file (you will be asked to confirm deletion)',
 'Delete:': 'Delete:',
 'Demo': 'အစမ်း၊ သရုပ်ပြမှုများ',
@@ -110,13 +147,19 @@
 'Deployment Recipes': 'Deployment Recipes',
 'Description': 'ဖော်ပြချက်',
 'design': 'design',
+<<<<<<< HEAD
 'Design': 'Design',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'direction: ltr': 'direction: ltr',
 'Disable': 'ပိတ်ရန်',
 'DISK': 'DISK',
 'Disk Cache Keys': 'Disk Cache Keys',
 'Disk Cleared': 'Disk ရှင်းလင်းပြီးပြီ',
+<<<<<<< HEAD
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'စာရွက်စာတမ်း အထောက်အကူများ',
 "Don't know what to do?": 'ဘာလုပ်ရမည်မသိ ဖြစ်နေပါသလား။',
 'done!': 'လုပ်ငန်း ဆောင်ရွက်ပြီးပြီ!',
@@ -124,7 +167,11 @@
 'Download layouts from repository': 'Download layouts from repository',
 'Download plugins from repository': 'Download plugins from repository',
 'E-mail': 'အီးမေးလ်',
+<<<<<<< HEAD
 'Edit': 'ပြင်ဆင်',
+=======
+'Edit': 'ပြင်ဆင်ရန်',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Edit application': 'Application ကို ပြင်ရန်',
 'Edit current record': 'လက်ရှိ မှတ်တမ်းကို ပြင်ရန်',
 'Email and SMS': 'အီးမေးလ်နှင့် SMS',
@@ -137,7 +184,10 @@
 'FAQ': 'ဖြစ်လေ့ရှိသော ပြဿနာများ',
 'filter': 'filter',
 'First name': 'အမည်၏ ပထမဆုံး စာလုံး',
+<<<<<<< HEAD
 'Forget': 'Forget',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Forms and Validators': 'Forms and Validators',
 'Free Applications': 'အခမဲ့ Applications',
 'graph model': 'graph model',
@@ -146,6 +196,7 @@
 'Groups': 'အဖွဲ့များ',
 'Hello World': 'မင်္ဂလာပါ ကမ္ဘာကြီး။',
 'Help': 'အကူအညီ',
+<<<<<<< HEAD
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
 'Home': 'မူလသို့',
@@ -156,6 +207,13 @@
 'in': 'in',
 'includes': 'includes',
 'Information': 'အချက်အလက်',
+=======
+'Home': 'မူလသို့',
+'How did you get here?': 'သင် ဘယ်လို ရောက်လာခဲ့သလဲ။',
+'import': 'သွင်းယူရန်',
+'Import/Export': 'သွင်းယူရန်/ထုတ်ယူရန်',
+'includes': 'includes',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Install': 'Install',
 'Installed applications': 'ထည့်သွင်းပြီး application များ',
 'Internal State': 'Internal State',
@@ -169,11 +227,15 @@
 'languages': 'ဘာသာစကားများ',
 'Languages': 'ဘာသာစကားများ',
 'Last name': 'မျိုးနွယ်အမည်',
+<<<<<<< HEAD
 'Latitude': 'လက်တီကျု့',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Layout': 'အပြင်အဆင်',
 'Layout Plugins': 'Layout Plugins',
 'Layouts': 'အပြင်အဆင်များ',
 'Live Chat': 'တိုက်ရိုက် ဆက်သွယ် ပြောကြားရန်',
+<<<<<<< HEAD
 'Location': 'တည်နေရာ',
 'Log In': 'ဝင်ရောက်',
 'Log Out': 'ထွက်ခွာ',
@@ -181,6 +243,11 @@
 'Login to the Administrative Interface': 'Login to the Administrative Interface',
 'Logout': 'ထွက်ရန်',
 'Longitude': 'လောင်ဂျီကျု့',
+=======
+'Login': 'ဝင်ရောက်အသုံးပြုရန်',
+'Login to the Administrative Interface': 'Login to the Administrative Interface',
+'Logout': 'ထွက်ရန်',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Lost Password': 'စကားဝှက် မသိတော့ပါ',
 'Lost password?': 'စကားဝှက် မသိတော့ဘူးလား။',
 'Manage': 'စီမံခန့်ခွဲရန်',
@@ -189,27 +256,42 @@
 'Manage Cache': 'Manage Cache',
 'Memberships': 'အသင်းဝင်များ',
 'Menu Model': 'Menu Model',
+<<<<<<< HEAD
 'Models': 'Models',
 'models': 'models',
+=======
+'models': 'models',
+'Models': 'Models',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Modified By': 'ပြင်ဆင်မွမ်းမံသူ',
 'Modified On': 'ပြင်ဆင်မွမ်းမံသည့် အချိန်',
 'Modules': 'Modules',
 'modules': 'modules',
 'My Sites': 'ကျွန်ုပ်၏ Site များ',
 'Name': 'အမည်',
+<<<<<<< HEAD
 'New %(entity)s': '',
 'New application wizard': 'New application wizard',
 'New Record': 'မှတ်တမ်း အသစ်',
 'new record inserted': 'မှတ်တမ်း အသစ် ဖြည့်သွင်းပြီးပြီ',
 'New Search': 'ရှာဖွေမှု အသစ်',
+=======
+'New application wizard': 'New application wizard',
+'New Record': 'မှတ်တမ်း အသစ်',
+'new record inserted': 'မှတ်တမ်း အသစ် ဖြည့်သွင်းပြီးပြီ',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'New simple application': 'ရိုးရိုး application အသစ်',
 'next %s rows': 'နောက်အတန်း %s တန်း',
 'No databases in this application': 'ဒီ application တွင် မည်သည့် ဒေတာဘေစ့်မှ မရှိပါ',
 'no package selected': 'no package selected',
+<<<<<<< HEAD
 'not in': 'not in',
 'Number of entries: **%s**': 'Number of entries: **%s**',
 'Object or table name': 'Object or table name',
 'Online book': 'Online book',
+=======
+'Object or table name': 'Object or table name',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'အွန်လိုင်း နမူနာများ',
 'or alternatively': 'or alternatively',
 'Or Get from URL:': 'Or Get from URL:',
@@ -217,6 +299,7 @@
 'Origin': 'မူလ အစ',
 'Other Plugins': 'အခြား Plugins',
 'Other Recipes': 'အခြား Recipes',
+<<<<<<< HEAD
 'Outlet': 'ဆိုင်',
 'Outlet Survey System': 'ဆိုင် စာရင်းကောက်ယူခြင်း စနစ်',
 'Outlet Type': 'ဆိုင် အမျိုးအစား',
@@ -228,34 +311,53 @@
 'Overwrite installed app': 'Overwrite installed app',
 'Owner(EN)': 'ဆိုင်ပိုင်ရှင်(အင်္ဂလိပ်)',
 'Owner(MM)': 'ဆိုင်ပိုင်ရှင်(မြန်မာ)',
+=======
+'Overview': 'အပေါ်ယံရှုမြင်ခြင်း',
+'Overwrite installed app': 'Overwrite installed app',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Pack all': 'အားလုံးကို ထုပ်ပိုးရန်',
 'Pack custom': 'ရွေးချယ်ထုပ်ပိုးရန်',
 'Password': 'စကားဝှက်',
 "Password fields don't match": 'စကားဝှက်များ ကိုက်ညီမှု မရှိပါ',
 'Permission': 'ခွင့်ပြုချက်',
 'Permissions': 'ခွင့်ပြုချက်များ',
+<<<<<<< HEAD
 'Phone1': 'ဖုန်း ၁',
 'Phone2': 'ဖုန်း ၂',
 'Phone3': 'ဖုန်း ၃',
 'please input your password again': 'ကျေးဇူးပြု၍ စကားဝှက်ကို ထပ်မံ ဖြည့်သွင်းပေးပါ',
 'plugins': 'plugins',
 'Plugins': 'Plugins',
+=======
+'please input your password again': 'ကျေးဇူးပြု၍ စကားဝှက်ကို ထပ်မံ ဖြည့်သွင်းပေးပါ',
+'Plugins': 'Plugins',
+'plugins': 'plugins',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Plural-Forms:': 'Plural-Forms:',
 'Powered by': 'အားဖြည့်စွမ်းအားပေးသူ',
 'Preface': 'နိဒါန်း',
 'previous %s rows': 'previous %s rows',
 'Private files': 'Private files',
 'private files': 'private files',
+<<<<<<< HEAD
 'Profile': 'Profile',
 'pygraphviz library not found': 'pygraphviz library ကို မတွေ့ပါ',
 'Python': 'Python',
 'Query:': 'Query:',
 'Questions': 'မေးခွန်းများ',
+=======
+'pygraphviz library not found': 'pygraphviz library ကို မတွေ့ပါ',
+'Python': 'Python',
+'Query:': 'Query:',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'အမြန် အသုံးပြုနိုင်သော နမူနာများ',
 'RAM': 'RAM',
 'RAM Cache Keys': 'RAM Cache Keys',
 'Ram Cleared': 'Ram ရှင်းလင်းပြီးပြီ',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Recipes',
 'Record': 'မှတ်တမ်း',
 'record does not exist': 'မှတ်တမ်း မရှိပါ',
@@ -275,6 +377,7 @@
 "Run tests in this file (to run all files, you may also use the button labelled 'test')": "Run tests in this file (to run all files, you may also use the button labelled 'test')",
 'Running on %s': 'Running on %s',
 'Save model as...': 'Save model as...',
+<<<<<<< HEAD
 'Search': 'ရှာဖွေ',
 'Semantic': 'Semantic',
 'Services': 'Services',
@@ -286,17 +389,32 @@
 'Start building a new search': 'Start building a new search',
 'Start wizard': 'Start wizard',
 'starts with': 'starts with',
+=======
+'Semantic': 'Semantic',
+'Services': 'Services',
+'shell': 'shell',
+'Site': 'Site',
+'Size of cache:': 'Size of cache:',
+'Start wizard': 'Start wizard',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'state': 'state',
 'static': 'static',
 'Static': 'Static',
 'Statistics': 'ကိန်းဂဏန်း အချက်အလက်များ',
 'Stylesheet': 'Stylesheet',
+<<<<<<< HEAD
 'Submit': 'သိမ်းပါ',
 'submit': 'ပြုလုပ်ပါ',
 'Support': 'အထောက်အပံ့',
 'Survey': 'စာရင်းကောက်ခံခြင်း',
 'Table': 'ဇယား',
 'Taste the feeling': 'အရသာကို ခံစားကြည့်ပါ',
+=======
+'submit': 'ပြုလုပ်ပါ',
+'Submit': 'Submit',
+'Support': 'အထောက်အပံ့',
+'Table': 'ဇယား',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'test': 'test',
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.',
 'The application logic, each URL path is mapped in one exposed function in the controller': 'The application logic, each URL path is mapped in one exposed function in the controller',
@@ -314,8 +432,11 @@
 'Time in Cache (h:m:s)': 'Time in Cache (h:m:s)',
 'Timestamp': 'Timestamp',
 'To create a plugin, name a file/folder plugin_[name]': 'To create a plugin, name a file/folder plugin_[name]',
+<<<<<<< HEAD
 'Township(EN)': 'မြို့နယ် (အင်္ဂလိပ်)',
 'Township(MM)': 'မြို့နယ် (မြန်မာ)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Traceback': 'Traceback',
 'Translation strings for the application': 'Translation strings for the application',
 'Try the mobile interface': 'Try the mobile interface',
@@ -338,6 +459,7 @@
 'Versioning': 'Versioning',
 'Videos': 'ဗွီဒီယိုများ',
 'View': 'ဗျူး',
+<<<<<<< HEAD
 'Views': 'ဗျူးများ',
 'views': 'views',
 'Ward(EN)': 'ရပ်ကွက် (အင်္ဂလိပ်)',
@@ -345,6 +467,12 @@
 'Web Framework': 'Web Framework',
 'Welcome': 'ကြိုဆိုပါ၏',
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
+=======
+'views': 'views',
+'Views': 'ဗျူးများ',
+'Web Framework': 'Web Framework',
+'Welcome': 'ကြိုဆိုပါ၏',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Welcome to web2py!': 'web2py မှ ကြိုဆိုပါသည်။',
 'Which called the function %s located in the file %s': 'Which called the function %s located in the file %s',
 'Working...': 'ဆောင်ရွက်နေပါသည် ။ ။ ။',

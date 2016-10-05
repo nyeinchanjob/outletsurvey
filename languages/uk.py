@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+# coding: utf8
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 {
 '!langcode!': 'uk',
 '!langname!': 'Українська',
@@ -15,10 +19,13 @@
 '%s selected': 'Вибрано %s %%{запис}',
 '%Y-%m-%d': '%Y/%m/%d',
 '%Y-%m-%d %H:%M:%S': '%Y/%m/%d %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
 '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}',
 '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 '1 day ago': '1 день тому',
 '1 hour ago': '1 годину тому',
 '1 minute ago': '1 хвилину тому',
@@ -26,7 +33,10 @@
 '1 second ago': '1 секунду тому',
 '1 week ago': '1 тиждень тому',
 '1 year ago': '1 рік тому',
+<<<<<<< HEAD
 '?': '?',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 '@markmin\x01(**%.0d MB**)': '(**``%.0d``:red МБ**)',
 '@markmin\x01**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{елемент(items)}, **%(bytes)s** %%{байт(bytes)}',
 '@markmin\x01``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**нема в наявності**``:red (потребує Пітонівської бібліотеки [[guppy [посилання відкриється у новому вікні] http://pypi.python.org/pypi/guppy/ popup]])',
@@ -36,21 +46,32 @@
 '@markmin\x01Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Оцінка поцілювання: **%(ratio)s%%** (**%(hits)s** %%{поцілювання(hits)} та **%(misses)s** %%{схибнення(misses)})',
 '@markmin\x01Number of entries: **%s**': 'Кількість входжень: ``**%s**``:red',
 '@markmin\x01RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': "Час життя об'єктів в ОЗП-КЕШІ сягає **%(hours)02d** %%{годину(hours)} **%(min)02d** %%{хвилину(min)} та **%(sec)02d** %%{секунду(sec)}.",
+<<<<<<< HEAD
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'About': 'Про додаток',
 'Access Control': 'Контроль доступу',
 'Administrative Interface': 'Адміністративний інтерфейс',
 'Ajax Recipes': 'Рецепти для Ajax',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'appadmin is disabled because insecure channel': 'використовується незахищенний канал (HTTP). Appadmin вимкнено',
 'Are you sure you want to delete this object?': "Ви впевнені, що хочете вилучити цей об'єкт?",
 'Available Databases and Tables': 'Доступні бази даних та таблиці',
 'Buy this book': 'Купити книжку',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'cache': 'кеш',
 'Cache': 'Кеш',
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'cache': 'кеш',
+'Cache': 'Кеш',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Ключі кешу',
 'Cannot be empty': 'Порожнє значення неприпустиме',
 'Change password': 'Змінити пароль',
@@ -60,10 +81,15 @@
 'Clear DISK': 'Очистити ДИСКОВИЙ кеш',
 'Clear RAM': "Очистити кеш В ПАМ'ЯТІ",
 'Client IP': 'IP клієнта',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
 'Community': 'Спільнота',
 'Components and Plugins': 'Компоненти та втулки',
 'Config.ini': 'Config.ini',
+=======
+'Community': 'Спільнота',
+'Components and Plugins': 'Компоненти та втулки',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Controller': 'Контролер',
 'Copyright': 'Правовласник',
 'Created By': 'Створив(ла)',
@@ -83,11 +109,17 @@
 'Deployment Recipes': 'Способи розгортання',
 'Description': 'Опис',
 'design': 'налаштування',
+<<<<<<< HEAD
 'Design': 'Design',
 'DISK': 'ДИСК',
 'Disk Cache Keys': 'Ключі дискового кешу',
 'Disk Cleared': 'Дисковий кеш очищено',
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'DISK': 'ДИСК',
+'Disk Cache Keys': 'Ключі дискового кешу',
+'Disk Cleared': 'Дисковий кеш очищено',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Документація',
 "Don't know what to do?": 'Не знаєте що робити далі?',
 'done!': 'зроблено!',
@@ -105,7 +137,10 @@
 'export as csv file': 'експортувати як файл csv',
 'FAQ': 'ЧаПи (FAQ)',
 'First name': "Ім'я",
+<<<<<<< HEAD
 'Forget': 'Forget',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Forgot username?': "Забули ім'я користувача?",
 'Forms and Validators': 'Форми та коректність даних',
 'Free Applications': 'Вільні додатки',
@@ -115,13 +150,19 @@
 'Group uniquely assigned to user %(id)s': "Група унікально зв'язана з користувачем %(id)s",
 'Groups': 'Групи',
 'Hello World': 'Привіт, світ!',
+<<<<<<< HEAD
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Початок',
 'How did you get here?': 'Як цього було досягнуто?',
 'import': 'Імпортувати',
 'Import/Export': 'Імпорт/Експорт',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': 'Створити новий запис',
 'insert new %s': 'створити новий запис %s',
 'Internal State': 'Внутрішній стан',
@@ -138,18 +179,25 @@
 'Layout Plugins': 'Втулки макетів',
 'Layouts': 'Макети',
 'Live Chat': 'Чат',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Logged in': 'Вхід здійснено',
 'Logged out': 'Вихід здійснено',
 'Login': 'Вхід',
 'Logout': 'Вихід',
 'Lost Password': 'Забули пароль',
 'Lost password?': 'Забули пароль?',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Управління кешем',
 'Memberships': 'Memberships',
+=======
+'Manage Cache': 'Управління кешем',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': 'Модель меню',
 'Modified By': 'Зміни провадив(ла)',
 'Modified On': 'Змінено в',
@@ -158,6 +206,7 @@
 'New password': 'Новий пароль',
 'New Record': 'Новий запис',
 'new record inserted': 'новий рядок додано',
+<<<<<<< HEAD
 'next %s rows': 'next %s rows',
 'next 100 rows': 'наступні 100 рядків',
 'No databases in this application': 'Даний додаток не використовує базу даних',
@@ -166,38 +215,60 @@
 'Object or table name': "Об'єкт або назва таблиці",
 'Old password': 'Старий пароль',
 'Online book': 'Online book',
+=======
+'next 100 rows': 'наступні 100 рядків',
+'No databases in this application': 'Даний додаток не використовує базу даних',
+'now': 'зараз',
+'Object or table name': "Об'єкт або назва таблиці",
+'Old password': 'Старий пароль',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'Зразковий демо-сайт',
 'or import from csv file': 'або імпортувати з csv-файлу',
 'Origin': 'Походження',
 'Other Plugins': 'Інші втулки',
 'Other Recipes': 'Інші рецепти',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Overview': 'Огляд',
 'Page Not Found!': 'Сторінку не знайдено!',
 'Page saved': 'Сторінку збережено',
 'Password': 'Пароль',
 'Password changed': 'Пароль змінено',
 "Password fields don't match": 'Пароль не співпав',
+<<<<<<< HEAD
 'Permission': 'Permission',
 'Permissions': 'Permissions',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'please input your password again': 'Будь-ласка введіть пароль ще раз',
 'Plugins': 'Втулки (Plugins)',
 'Powered by': 'Працює на',
 'Preface': 'Передмова',
+<<<<<<< HEAD
 'previous %s rows': 'previous %s rows',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'previous 100 rows': 'попередні 100 рядків',
 'Profile': 'Параметри',
 'Profile updated': 'Параметри змінено',
 'pygraphviz library not found': 'Бібліотека pygraphviz не знайдена (не встановлена)',
 'Python': 'Мова Python',
 'Query:': 'Запит:',
+<<<<<<< HEAD
 'Questions': 'Questions',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Швидкі приклади',
 'RAM': "ОПЕРАТИВНА ПАМ'ЯТЬ (ОЗП)",
 'RAM Cache Keys': 'Ключі ОЗП-кешу',
 'Ram Cleared': 'ОЗП-кеш очищено',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Рецепти',
 'Record': 'запис',
 'Record %(id)s updated': 'Запис %(id)s змінено',
@@ -213,6 +284,7 @@
 'Request reset password': 'Запит на зміну пароля',
 'Reset Password key': 'Ключ скидання пароля',
 'Role': 'Роль',
+<<<<<<< HEAD
 'Roles': 'Roles',
 'Rows in Table': 'Рядки в таблиці',
 'Rows selected': 'Відмічено рядків',
@@ -222,6 +294,13 @@
 'Services': 'Сервіс',
 'Setting': 'Setting',
 'Sign Up': 'Sign Up',
+=======
+'Rows in Table': 'Рядки в таблиці',
+'Rows selected': 'Відмічено рядків',
+'Save profile': 'Зберегти параметри',
+'Semantic': 'Семантика',
+'Services': 'Сервіс',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Size of cache:': 'Розмір кешу:',
 'state': 'стан',
 'Statistics': 'Статистика',
@@ -229,9 +308,13 @@
 'submit': 'застосувати',
 'Submit': 'Застосувати',
 'Support': 'Підтримка',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': 'Таблиця',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': 'Таблиця',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': '"Запит" це умова, на зразок "db.table1.field1==\'значення\'". Вираз "db.table1.field1==db.table2.field2" повертає результат об\'єднання (SQL JOIN) таблиць.',
 'The Core': 'Ядро',
 'The output of the file is a dictionary that was rendered by the view %s': 'Результат функції - словник пар (назва=значення) було відображено з допомогою відображення (view) %s',
@@ -241,12 +324,18 @@
 'Time in Cache (h:m:s)': 'Час знаходження в кеші (h:m:s)',
 'Timestamp': 'Відмітка часу',
 'too short': 'Занадто короткий',
+<<<<<<< HEAD
 'Traceback': 'Traceback',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Twitter': 'Твіттер',
 'unable to parse csv file': 'не вдається розібрати csv-файл',
 'Update:': 'Оновити:',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': 'Для створення складних запитів використовуйте (...)&(...) замість AND, (...)|(...) замість OR, та ~(...) замість NOT.',
+<<<<<<< HEAD
 'User': 'User',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'User %(id)s Logged-in': 'Користувач %(id)s увійшов',
 'User %(id)s Logged-out': 'Користувач  %(id)s вийшов',
 'User %(id)s Password changed': 'Користувач %(id)s змінив свій пароль',
@@ -254,13 +343,19 @@
 'User %(id)s Profile updated': 'Параметри користувача %(id)s змінено',
 'User %(id)s Registered': 'Користувач %(id)s зареєструвався',
 'User ID': 'Ід.користувача',
+<<<<<<< HEAD
 'Users': 'Users',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'value already in database or empty': 'значення вже в базі даних або порожнє',
 'Verify Password': 'Повторити пароль',
 'Videos': 'Відео',
 'View': 'Відображення (View)',
 'Welcome': 'Ласкаво просимо',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Welcome to web2py!': 'Ласкаво просимо до web2py!',
 'Which called the function %s located in the file %s': 'Управління передалось функції %s, яка розташована у файлі %s',
 'Working...': 'Працюємо...',

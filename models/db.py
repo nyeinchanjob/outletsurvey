@@ -33,6 +33,7 @@ if not request.env.web2py_runtime_gae:
              migrate_enabled=myconf.get('db.migrate'),
              check_reserved=['all'])
 else:
+<<<<<<< HEAD
     pass
     # ---------------------------------------------------------------------
     # connect to Google BigTable (optional 'google:datastore://namespace')
@@ -42,6 +43,16 @@ else:
     # store sessions and tickets there
     # ---------------------------------------------------------------------
     # session.connect(request, response, db=db)
+=======
+    # ---------------------------------------------------------------------
+    # connect to Google BigTable (optional 'google:datastore://namespace')
+    # ---------------------------------------------------------------------
+    db = DAL('google:datastore+ndb')
+    # ---------------------------------------------------------------------
+    # store sessions and tickets there
+    # ---------------------------------------------------------------------
+    session.connect(request, response, db=db)
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
     # ---------------------------------------------------------------------
     # or store session in Memcache, Redis, etc.
     # from gluon.contrib.memdb import MEMDB
@@ -81,12 +92,20 @@ response.form_label_separator = myconf.get('forms.separator') or ''
 # (more options discussed in gluon/tools.py)
 # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
 from gluon.tools import Auth, Service, Crud, PluginManager
 
 # host names must be a list of allowed host names (glob syntax allowed)
 auth = Auth(db, host_names=myconf.get('host.names'))
 service = Service(db)
 crud = Crud(db)
+=======
+from gluon.tools import Auth, Service, PluginManager
+
+# host names must be a list of allowed host names (glob syntax allowed)
+auth = Auth(db, host_names=myconf.get('host.names'))
+service = Service()
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 plugins = PluginManager()
 
 # -------------------------------------------------------------------------
@@ -131,7 +150,11 @@ auth.settings.reset_password_requires_verification = True
 # -------------------------------------------------------------------------
 # after defining tables, uncomment below to enable auditing
 # -------------------------------------------------------------------------
+<<<<<<< HEAD
 # auth.enable_record_versioning(db)i
 
 if request.uri_language:
     T.force(request.uri_language)
+=======
+# auth.enable_record_versioning(db)
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0

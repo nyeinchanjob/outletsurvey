@@ -10,6 +10,7 @@
 '%s selected': '%s %%{seleccionat}',
 '%Y-%m-%d': '%d/%m/%Y',
 '%Y-%m-%d %H:%M:%S': '%d/%m/%Y %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '(something like "it-it")': '(similar a "això-això")',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
@@ -19,6 +20,11 @@
 '@markmin\x01An error occured, please [[reload %s]] the page': 'Hi ha hagut un error, si us plau [[recarregui %s]] la pàgina',
 '@markmin\x01Number of entries: **%s**': "Nombre d'entrades: **%s**",
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+'(something like "it-it")': '(similar a "això-això")',
+'@markmin\x01An error occured, please [[reload %s]] the page': 'Hi ha hagut un error, si us plau [[recarregui %s]] la pàgina',
+'@markmin\x01Number of entries: **%s**': "Nombre d'entrades: **%s**",
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'A new version of web2py is available': 'Hi ha una nova versió de wep2py disponible',
 'A new version of web2py is available: %s': 'Hi ha una nova versió de wep2py disponible: %s',
 'About': 'Sobre',
@@ -34,12 +40,20 @@
 'Admin is disabled because insecure channel': 'Admin inhabilitat, el canal no és segur',
 'Admin is disabled because unsecure channel': 'Admin inhabilitat, el canal no és segur',
 'Administrative interface': 'Interfície administrativa',
+<<<<<<< HEAD
 'administrative interface': 'interfície administrativa',
 'Administrative Interface': 'Interfície Administrativa',
 'Administrator Password:': 'Contrasenya del Administrador:',
 'Ajax Recipes': 'Receptes AJAX',
 'An error occured, please %s the page': 'Hi ha hagut un error, per favor %s la pàgina',
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+'Administrative Interface': 'Interfície Administrativa',
+'administrative interface': 'interfície administrativa',
+'Administrator Password:': 'Contrasenya del Administrador:',
+'Ajax Recipes': 'Receptes AJAX',
+'An error occured, please %s the page': 'Hi ha hagut un error, per favor %s la pàgina',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'And': 'I',
 'and rename it (required):': 'i renombri-la (requerit):',
 'and rename it:': " i renombri'l:",
@@ -64,11 +78,17 @@
 'Available Databases and Tables': 'Bases de dades i taules disponibles',
 'Back': 'Endarrera',
 'Buy this book': 'Compra aquest lllibre',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'Cache': 'Caché',
 'cache': 'caché',
 'Cache Cleared': 'Caché Netejada',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'Cache': 'Caché',
+'cache': 'caché',
+'Cache Cleared': 'Caché Netejada',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Claus de la Caché',
 'cache, errors and sessions cleaned': 'caché, errors i sessions eliminats',
 'Cannot be empty': 'No pot estar buit',
@@ -91,14 +111,20 @@
 'client': 'cliente',
 'Client IP': 'IP del Client',
 'Close': 'Tancar',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Comma-separated export including columns not shown; fields from other tables are exported as raw values for faster export': 'Comma-separated export including columns not shown; fields from other tables are exported as raw values for faster export',
 'Comma-separated export of visible columns. Fields from other tables are exported as they appear on-screen but this may be slow for many rows': 'Comma-separated export of visible columns. Fields from other tables are exported as they appear on-screen but this may be slow for many rows',
 'Community': 'Comunitat',
 'compile': 'compilar',
 'compiled application removed': 'aplicació compilada eliminada',
 'Components and Plugins': 'Components i Plugins',
+<<<<<<< HEAD
 'Config.ini': 'Config.ini',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'contains': 'conté',
 'Controller': 'Controlador',
 'Controllers': 'Controladors',
@@ -139,13 +165,19 @@
 'Description': 'Descripció',
 'design': 'diseny',
 'DESIGN': 'DISENY',
+<<<<<<< HEAD
 'Design': 'Design',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Design for': 'Diseny per a',
 'detecting': 'detectant',
 'DISK': 'DISC',
 'Disk Cache Keys': 'Claus de Caché en Disc',
 'Disk Cleared': 'Disc netejat',
+<<<<<<< HEAD
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Documentació',
 "Don't know what to do?": 'No sap què fer?',
 'done!': '¡fet!',
@@ -202,12 +234,18 @@
 'file saved on %(time)s': 'fitxer guardat a %(time)s',
 'file saved on %s': 'fitxer guardat a %s',
 'First name': 'Nom',
+<<<<<<< HEAD
 'Forget': 'Forget',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Forgot username?': 'Ha oblidat el nom de usuari?',
 'Forms and Validators': 'Formularis i validadors',
 'Free Applications': 'Aplicacions Lliures',
 'Functions with no doctests will result in [passed] tests.': 'Funcions sense doctests equivalen a pruebas [aceptades].',
+<<<<<<< HEAD
 'Graph Model': 'Graph Model',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Group %(group_id)s created': 'Grupo %(group_id)s creat',
 'Group ID': 'ID de Grup',
 'Group uniquely assigned to user %(id)s': 'Grup assignat únicament al usuari %(id)s',
@@ -215,8 +253,11 @@
 'Hello': 'Hola',
 'Hello World': 'Hola Món',
 'help': 'ajuda',
+<<<<<<< HEAD
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Inici',
 'Hosted by': 'Hosted by',
 'How did you get here?': 'Com has arribat aquí?',
@@ -229,7 +270,10 @@
 'in': 'a',
 'includes': 'inclou',
 'Index': 'Índex',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': 'inserti nou',
 'insert new %s': 'inserti nou %s',
 'Installed applications': 'Aplicacions instalades',
@@ -261,7 +305,10 @@
 'License for': 'Llicència per a',
 'Live Chat': 'Xat en viu',
 'loading...': 'carregant...',
+<<<<<<< HEAD
 'Location': 'Location',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Log In': 'Log In',
 'Log Out': 'Log Out',
 'Logged in': 'Sessió iniciada',
@@ -279,7 +326,10 @@
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Gestionar la Caché',
+<<<<<<< HEAD
 'Memberships': 'Memberships',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': 'Model "menu"',
 'merge': 'combinar',
 'Models': 'Models',
@@ -306,10 +356,15 @@
 'No records found': "No s'han trobat registres",
 'Not authorized': 'No autoritzat',
 'not in': 'no a',
+<<<<<<< HEAD
 'Number of entries: **%s**': 'Number of entries: **%s**',
 'Object or table name': 'Nom del objecte o taula',
 'Old password': 'Contrasenya anterior',
 'Online book': 'Online book',
+=======
+'Object or table name': 'Nom del objecte o taula',
+'Old password': 'Contrasenya anterior',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'Ejemples en línia',
 'Or': 'O',
 'or import from csv file': 'o importar desde fitxer CSV',
@@ -318,8 +373,11 @@
 'Original/Translation': 'Original/Traducció',
 'Other Plugins': 'Altres Plugins',
 'Other Recipes': 'Altres Receptes',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Overview': 'Resum',
 'pack all': 'empaquetar tot',
 'pack compiled': 'empaquetar compilats',
@@ -345,12 +403,18 @@
 'Python': 'Python',
 'Query Not Supported: %s': 'Consulta No Suportada: %s',
 'Query:': 'Consulta:',
+<<<<<<< HEAD
 'Questions': 'Questions',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Exemple Ràpids',
 'RAM': 'RAM',
 'RAM Cache Keys': 'Claus de la Caché en RAM',
 'Ram Cleared': 'Ram Netjeda',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Receptes',
 'Record': 'Registre',
 'Record %(id)s created': 'Registre %(id)s creat',
@@ -386,7 +450,10 @@
 'Semantic': 'Semàntica',
 'Services': 'Serveis',
 'session expired': 'sessió expirada',
+<<<<<<< HEAD
 'Setting': 'Setting',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'shell': 'terminal',
 'Sign Up': 'Sign Up',
 'site': 'lloc',
@@ -408,10 +475,15 @@
 'Success!': 'Correcte!',
 'Support': 'Suport',
 'Sure you want to delete this object?': '¿Està segur que vol eliminar aquest objecte?',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': 'taula',
 'Table name': 'Nom de la taula',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': 'taula',
+'Table name': 'Nom de la taula',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'test': 'provar',
 'Testing application': 'Provant aplicació',
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': 'La "consulta" és una condición com "db.tabla1.campo1==\'valor\'". Algo com "db.tabla1.campo1==db.tabla2.campo2" resulta en un JOIN SQL.',
@@ -506,7 +578,10 @@
 'web2py Recent Tweets': 'Tweets Recents de web2py',
 'Welcome': 'Benvingut',
 'Welcome %s': 'Benvingut %s',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Welcome to web2py': 'Benvingut a web2py',
 'Welcome to web2py!': '¡Benvingut a web2py!',
 'Which called the function %s located in the file %s': 'La qual va cridar la funció %s localitzada en el fitxer %s',

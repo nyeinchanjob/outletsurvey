@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 {
 '!langcode!': 'my',
 '!langname!': 'Malay',
 '"update" is an optional expression like "field1=\'newvalue\'". You cannot update or delete the results of a JOIN': '"update" is an optional expression like "field1=\'newvalue\'". You cannot update or delete the results of a JOIN',
+=======
+# coding: utf8
+{
+'!langcode!': 'my',
+'!langname!': 'Malay',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 '%d days ago': '%d hari yang lalu',
 '%d hours ago': '%d jam yang lalu',
 '%d minutes ago': '%d minit yang lalu',
@@ -16,12 +23,17 @@
 '%s selected': '%s dipilih',
 '%Y-%m-%d': '%d-%m-%Y',
 '%Y-%m-%d %H:%M:%S': '%d-%m-%Y %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '(requires internet access, experimental)': '(memerlukan akses internet, percubaan)',
 '(something like "it-it")': '(sesuatu seperti "it-it")',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
 '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}',
 '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+'(requires internet access, experimental)': '(memerlukan akses internet, percubaan)',
+'(something like "it-it")': '(sesuatu seperti "it-it")',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 '1 day ago': '1 hari yang lalu',
 '1 hour ago': '1 jam yang lalu',
 '1 minute ago': '1 minit yang lalu',
@@ -30,15 +42,20 @@
 '1 week ago': '1 minggu yang lalu',
 '1 year ago': '1 tahun yang lalu',
 '< Previous': '< Sebelumnya',
+<<<<<<< HEAD
 '?': '?',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
 'About': 'Mengenai',
 'Access Control': 'Access Control',
+=======
+'About': 'Mengenai',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Add': 'Tambah',
 'Admin language': 'Bahasa admin',
 'Administrator Password:': 'Kata laluan Administrator:',
 'Ajax Recipes': 'Resipi Ajax',
 'An error occured, please %s the page': 'Kesilapan telah berlaku, sila %s laman',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
 'And': 'Dan',
 'and rename it:': 'dan menamakan itu:',
@@ -54,12 +71,23 @@
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
 'Cache Keys': 'Cache Keys',
+=======
+'And': 'Dan',
+'and rename it:': 'dan menamakan itu:',
+'are not used yet': 'tidak digunakan lagi',
+'Are you sure you want to delete this object?': 'Apakah anda yakin anda mahu memadam ini?',
+'Back': 'Kembali',
+'Buy this book': 'Beli buku ini',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'cache, errors and sessions cleaned': 'cache, kesilapan dan sesi dibersihkan',
 'Cancel': 'Batal',
 'Cannot be empty': 'Tidak boleh kosong',
 'Change admin password': 'Tukar kata laluan admin',
 'Change password': 'Tukar kata laluan',
+<<<<<<< HEAD
 'Check to delete': 'Check to delete',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Clean': 'Bersihkan',
 'Clear': 'Hapus',
 'Clear CACHE?': 'Hapus CACHE?',
@@ -67,16 +95,23 @@
 'Clear RAM': 'Hapus RAM',
 'Click row to expand traceback': 'Klik baris untuk mengembangkan traceback',
 'Close': 'Tutup',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
 'Community': 'Komuniti',
 'Components and Plugins': 'Komponen dan Plugin',
 'Config.ini': 'Config.ini',
 'contains': 'mengandung',
 'Controller': 'Controller',
+=======
+'Community': 'Komuniti',
+'Components and Plugins': 'Komponen dan Plugin',
+'contains': 'mengandung',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Copyright': 'Hak Cipta',
 'Create': 'Buat',
 'create file with filename:': 'mencipta fail dengan nama:',
 'created by': 'dicipta oleh',
+<<<<<<< HEAD
 'Current request': 'Current request',
 'Current response': 'Current response',
 'Current session': 'Current session',
@@ -99,14 +134,28 @@
 'Disk Cache Keys': 'Disk Cache Keys',
 'Disk Cleared': 'Disk Dihapuskan',
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'currently running': 'sedang berjalan',
+'data uploaded': 'data diunggah',
+'Delete': 'Hapus',
+'Delete this file (you will be asked to confirm deletion)': 'Padam fail ini (anda akan diminta untuk mengesahkan pemadaman)',
+'Delete:': 'Hapus:',
+'design': 'disain',
+'direction: ltr': 'arah: ltr',
+'Disk Cleared': 'Disk Dihapuskan',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Dokumentasi',
 "Don't know what to do?": 'Tidak tahu apa yang perlu dilakukan?',
 'done!': 'selesai!',
 'Download': 'Unduh',
 'Duration': 'Tempoh',
+<<<<<<< HEAD
 'Edit current record': 'Edit current record',
 'Email : ': 'Emel : ',
 'Email and SMS': 'Email and SMS',
+=======
+'Email : ': 'Emel : ',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Email sent': 'Emel dihantar',
 'enter a valid email address': 'masukkan alamat emel yang benar',
 'enter a valid URL': 'masukkan URL yang benar',
@@ -115,6 +164,7 @@
 'Errors': 'Kesalahan',
 'export as csv file': 'eksport sebagai file csv',
 'Export:': 'Eksport:',
+<<<<<<< HEAD
 'FAQ': 'FAQ',
 'File': 'Fail',
 'filter': 'menapis',
@@ -125,19 +175,31 @@
 'Free Applications': 'Aplikasi Percuma',
 'Gender': 'Jenis Kelamin',
 'Graph Model': 'Graph Model',
+=======
+'File': 'Fail',
+'filter': 'menapis',
+'First Name': 'Nama Depan',
+'Forgot username?': 'Lupa nama pengguna?',
+'Free Applications': 'Aplikasi Percuma',
+'Gender': 'Jenis Kelamin',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Group %(group_id)s created': 'Kumpulan %(group_id)s dicipta',
 'Group uniquely assigned to user %(id)s': 'Kumpulan unik yang diberikan kepada pengguna %(id)s',
 'Groups': 'Kumpulan',
 'Hello World': 'Halo Dunia',
 'Help': 'Bantuan',
+<<<<<<< HEAD
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Laman Utama',
 'How did you get here?': 'Bagaimana kamu boleh di sini?',
 'Image': 'Gambar',
 'import': 'import',
 'Import/Export': 'Import/Eksport',
 'includes': 'termasuk',
+<<<<<<< HEAD
 'Information': 'Information',
 'Install': 'Pasang',
 'Installation': 'Pemasangan',
@@ -147,16 +209,27 @@
 'Invalid Query': 'Invalid Query',
 'invalid request': 'invalid request',
 'Key': 'Key',
+=======
+'Install': 'Pasang',
+'Installation': 'Pemasangan',
+'Introduction': 'Pengenalan',
+'Invalid email': 'Emel tidak benar',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Language': 'Bahasa',
 'languages': 'bahasa',
 'Languages': 'Bahasa',
 'Last Name': 'Nama Belakang',
+<<<<<<< HEAD
 'Layout': 'Layout',
 'License for': 'lesen untuk',
 'Live Chat': 'Live Chat',
 'loading...': 'sedang memuat...',
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+'License for': 'lesen untuk',
+'loading...': 'sedang memuat...',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Logged in': 'Masuk',
 'Logged out': 'Keluar',
 'Login': 'Masuk',
@@ -165,6 +238,7 @@
 'Lost password?': 'Lupa kata laluan?',
 'Maintenance': 'Penyelenggaraan',
 'Manage': 'Menguruskan',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Menguruskan Cache',
@@ -172,11 +246,17 @@
 'Menu Model': 'Menu Model',
 'Models': 'Model',
 'models': 'model',
+=======
+'Manage Cache': 'Menguruskan Cache',
+'models': 'model',
+'Models': 'Model',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Modules': 'Modul',
 'modules': 'modul',
 'My Sites': 'Laman Saya',
 'New': 'Baru',
 'New password': 'Kata laluan baru',
+<<<<<<< HEAD
 'New Record': 'New Record',
 'new record inserted': 'new record inserted',
 'next %s rows': 'next %s rows',
@@ -189,6 +269,14 @@
 'Number of entries: **%s**': 'Number of entries: **%s**',
 'Old password': 'Kata laluan lama',
 'Online book': 'Online book',
+=======
+'next 100 rows': '100 baris seterusnya',
+'Next >': 'Seterusnya >',
+'Next Page': 'Laman Seterusnya',
+'No ticket_storage.txt found under /private folder': 'Ticket_storage.txt tidak dijumpai di bawah folder /private',
+'not a Zip Code': 'bukan Pos',
+'Old password': 'Kata laluan lama',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'Contoh Online',
 'Or': 'Atau',
 'or alternatively': 'atau sebagai alternatif',
@@ -196,20 +284,27 @@
 'or import from csv file': 'atau import dari file csv',
 'Other Plugins': 'Plugin Lain',
 'Other Recipes': 'Resipi Lain',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Overview': 'Tinjauan',
 'Pack all': 'Mengemaskan semua',
 'Password': 'Kata laluan',
 'Password changed': 'Kata laluan berubah',
 "Password fields don't match": 'Kata laluan tidak sama',
+<<<<<<< HEAD
 'Permission': 'Permission',
 'Permissions': 'Permissions',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'please input your password again': 'sila masukan kata laluan anda lagi',
 'plugins': 'plugin',
 'Plugins': 'Plugin',
 'Powered by': 'Disokong oleh',
 'Preface': 'Pendahuluan',
+<<<<<<< HEAD
 'previous %s rows': 'previous %s rows',
 'previous 100 rows': '100 baris sebelumnya',
 'Previous Page': 'Laman Sebelumnya',
@@ -231,15 +326,30 @@
 'Record': 'Record',
 'record does not exist': 'record does not exist',
 'Record id': 'Record id',
+=======
+'previous 100 rows': '100 baris sebelumnya',
+'Previous Page': 'Laman Sebelumnya',
+'private files': 'fail peribadi',
+'Private files': 'Fail peribadi',
+'Profile': 'Profil',
+'Profile updated': 'Profil dikemaskini',
+'Project Progress': 'Kemajuan Projek',
+'Quick Examples': 'Contoh Cepat',
+'Ram Cleared': 'Ram Dihapuskan',
+'Recipes': 'Resipi',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Register': 'Daftar',
 'Registration successful': 'Pendaftaran berjaya',
 'reload': 'memuat kembali',
 'Reload routes': 'Memuat laluan kembali',
 'Remember me (for 30 days)': 'Ingat saya (selama 30 hari)',
 'Request reset password': 'Meminta reset kata laluan',
+<<<<<<< HEAD
 'Role': 'Role',
 'Roles': 'Roles',
 'Rows in Table': 'Rows in Table',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Rows selected': 'Baris dipilih',
 'Running on %s': 'Berjalan pada %s',
 'Save model as...': 'Simpan model sebagai ...',
@@ -247,6 +357,7 @@
 'Search': 'Cari',
 'Select Files to Package': 'Pilih Fail untuk Pakej',
 'Send Email': 'Kirim Emel',
+<<<<<<< HEAD
 'Services': 'Services',
 'Setting': 'Setting',
 'Sign Up': 'Sign Up',
@@ -267,6 +378,16 @@
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.',
 'The Core': 'The Core',
 'The Views': 'The Views',
+=======
+'Size of cache:': 'Saiz cache:',
+'Solution': 'Penyelesaian',
+'starts with': 'bermula dengan',
+'static': 'statik',
+'Static': 'Statik',
+'Statistics': 'Statistik',
+'Support': 'Menyokong',
+'test': 'ujian',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'There are no plugins': 'Tiada plugin',
 'There are no private files': 'Tiada fail peribadi',
 'These files are not served, they are only available from within your app': 'Fail-fail ini tidak disampaikan, mereka hanya boleh didapati dari dalam aplikasi anda',
@@ -276,8 +397,11 @@
 'Title': 'Judul',
 'To create a plugin, name a file/folder plugin_[name]': 'Untuk mencipta plugin, nama fail/folder plugin_ [nama]',
 'too short': 'terlalu pendek',
+<<<<<<< HEAD
 'Traceback': 'Traceback',
 'Twitter': 'Twitter',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Unable to download because:': 'Tidak dapat memuat turun kerana:',
 'unable to parse csv file': 'tidak mampu mengurai file csv',
 'update all languages': 'mengemaskini semua bahasa',
@@ -287,30 +411,46 @@
 'Upload a package:': 'Unggah pakej:',
 'upload file:': 'unggah fail:',
 'upload plugin file:': 'unggah fail plugin:',
+<<<<<<< HEAD
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.',
 'User': 'User',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'User %(id)s Logged-in': 'Pengguna %(id)s Masuk',
 'User %(id)s Logged-out': 'Pengguna %(id)s Keluar',
 'User %(id)s Password changed': 'Pengguna %(id)s Kata Laluan berubah',
 'User %(id)s Password reset': 'Pengguna %(id)s Kata Laluan telah direset',
 'User %(id)s Profile updated': 'Pengguna %(id)s Profil dikemaskini',
 'User %(id)s Registered': 'Pengguna %(id)s Didaftarkan',
+<<<<<<< HEAD
 'Users': 'Users',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'value not allowed': 'data tidak benar',
 'Verify Password': 'Pengesahan Kata Laluan',
 'Version': 'Versi',
 'Versioning': 'Pembuatan Sejarah',
+<<<<<<< HEAD
 'Videos': 'Videos',
 'View': 'Lihat',
 'views': 'Lihat',
 'Views': 'Lihat',
+=======
+'View': 'Lihat',
+'Views': 'Lihat',
+'views': 'Lihat',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Web Framework': 'Rangka Kerja Web',
 'web2py Recent Tweets': 'Tweet terbaru web2py',
 'Website': 'Laman Web',
 'Welcome': 'Selamat Datang',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
 'Welcome to web2py!': 'Selamat Datang di web2py!',
 'Working...': 'Working...',
+=======
+'Welcome to web2py!': 'Selamat Datang di web2py!',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'You are successfully running web2py': 'Anda berjaya menjalankan web2py',
 'You can modify this application and adapt it to your needs': 'Anda boleh mengubah suai aplikasi ini dan menyesuaikan dengan keperluan anda',
 'You visited the url %s': 'Anda melawat url %s',

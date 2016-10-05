@@ -8,6 +8,7 @@
 '%s selected': '%s selecionado',
 '%Y-%m-%d': '%d-%m-%Y',
 '%Y-%m-%d %H:%M:%S': '%d-%m-%Y %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
 '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}',
@@ -21,15 +22,28 @@
 'Administrative interface': 'Interface administrativa',
 'Ajax Recipes': 'Receitas de Ajax',
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+'About': 'Sobre',
+'Access Control': 'Controle de Acesso',
+'Administrative Interface': 'Interface Administrativa',
+'@markmin\x01An error occured, please [[reload %s]] the page': 'Ocorreu um erro, por favor [[reload %s]] a página',
+'Administrative interface': 'Interface administrativa',
+'Ajax Recipes': 'Receitas de Ajax',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'appadmin is disabled because insecure channel': 'Administração desativada porque o canal não é seguro',
 'Are you sure you want to delete this object?': 'Você está certo que deseja apagar este objeto?',
 'Available Databases and Tables': 'Bancos de dados e tabelas disponíveis',
 'Buy this book': 'Compre o livro',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'cache': 'cache',
 'Cache': 'Cache',
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'cache': 'cache',
+'Cache': 'Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Chaves de cache',
 'Cannot be empty': 'Não pode ser vazio',
 'change password': 'modificar senha',
@@ -38,10 +52,15 @@
 'Clear DISK': 'Limpar DISCO',
 'Clear RAM': 'Limpar memória RAM',
 'Client IP': 'IP do cliente',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
 'Community': 'Comunidade',
 'Components and Plugins': 'Componentes e Plugins',
 'Config.ini': 'Config.ini',
+=======
+'Community': 'Comunidade',
+'Components and Plugins': 'Componentes e Plugins',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Controller': 'Controlador',
 'Copyright': 'Copyright',
 'Current request': 'Requisição atual',
@@ -51,7 +70,10 @@
 'data uploaded': 'dados enviados',
 'Database': 'banco de dados',
 'Database %s select': 'Selecionar banco de dados %s',
+<<<<<<< HEAD
 'Database Administration (appadmin)': 'Database Administration (appadmin)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'db': 'bd',
 'DB Model': 'Modelo BD',
 'Delete:': 'Apagar:',
@@ -59,6 +81,7 @@
 'Deployment Recipes': 'Receitas de deploy',
 'Description': 'Descrição',
 'design': 'projeto',
+<<<<<<< HEAD
 'Design': 'Design',
 'DISK': 'DISK',
 'Disk Cache Keys': 'Chaves do Cache de Disco',
@@ -66,6 +89,13 @@
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
 'Documentation': 'Documentação',
 "Don't know what to do?": 'Não sabe o que fazer?',
+=======
+'DISK': 'DISK',
+'Disk Cache Keys': 'Chaves do Cache de Disco',
+'Disk Cleared': 'Disco Limpo',
+'Documentation': 'Documentação',
+"Don't know what to do?": "Não sabe o que fazer?",
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'done!': 'concluído!',
 'Download': 'Download',
 'E-mail': 'E-mail',
@@ -74,6 +104,7 @@
 'edit profile': 'editar perfil',
 'Edit This App': 'Editar esta aplicação',
 'Email and SMS': 'Email e SMS',
+<<<<<<< HEAD
 'Enter an integer between %(min)g and %(max)g': 'Informe um valor inteiro entre %(min)g e %(max)g',
 'Errors': 'Erros',
 'export as csv file': 'exportar como um arquivo csv',
@@ -88,12 +119,27 @@
 'Hello World': 'Olá Mundo',
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+'Errors': 'Erros',
+'Enter an integer between %(min)g and %(max)g': 'Informe um valor inteiro entre %(min)g e %(max)g',
+'export as csv file': 'exportar como um arquivo csv',
+'FAQ': 'Perguntas frequentes',
+'First name': 'Nome',
+'Forms and Validators': 'Formulários e Validadores',
+'Free Applications': 'Aplicações gratuitas',
+'Group ID': 'ID do Grupo',
+'Groups': 'Grupos',
+'Hello World': 'Olá Mundo',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Principal',
 'How did you get here?': 'Como você chegou aqui?',
 'import': 'importar',
 'Import/Export': 'Importar/Exportar',
 'Index': 'Início',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': 'inserir novo',
 'insert new %s': 'inserir novo %s',
 'Internal State': 'Estado Interno',
@@ -108,34 +154,48 @@
 'Layouts': 'Layouts',
 'Live chat': 'Chat ao vivo',
 'Live Chat': 'Chat ao vivo',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'login': 'Entrar',
 'Login': 'Autentique-se',
 'logout': 'Sair',
 'Lost Password': 'Esqueceu sua senha?',
 'lost password?': 'esqueceu sua senha?',
 'Main Menu': 'Menu Principal',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Gerenciar Cache',
 'Memberships': 'Memberships',
+=======
+'Manage Cache': 'Gerenciar Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': 'Modelo de Menu',
 'My Sites': 'Meus sites',
 'Name': 'Nome',
 'New Record': 'Novo Registro',
 'new record inserted': 'novo registro inserido',
+<<<<<<< HEAD
 'next %s rows': 'next %s rows',
 'next 100 rows': 'próximas 100 linhas',
 'No databases in this application': 'Não há bancos de dados nesta aplicação',
 'Number of entries: **%s**': 'Number of entries: **%s**',
 'Object or table name': 'Nome do objeto do da tabela',
 'Online book': 'Online book',
+=======
+'next 100 rows': 'próximas 100 linhas',
+'No databases in this application': 'Não há bancos de dados nesta aplicação',
+'Object or table name': 'Nome do objeto do da tabela',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'Exemplos online',
 'or import from csv file': 'ou importar de um arquivo csv',
 'Origin': 'Origem',
 'Other Plugins': 'Outros Plugins',
 'Other Recipes': 'Outras Receitas',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
 'Overview': 'Visão Geral',
@@ -151,11 +211,24 @@
 'Python': 'Python',
 'Query:': 'Consulta:',
 'Questions': 'Questions',
+=======
+'Overview': 'Visão Geral',
+'Password': 'Senha',
+'Plugins': 'Plugins',
+'Powered by': 'Desenvolvido com',
+'Preface': 'Prefácio',
+'previous 100 rows': '100 linhas anteriores',
+'Python': 'Python',
+'Query:': 'Consulta:',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Exemplos rápidos',
 'RAM': 'RAM',
 'RAM Cache Keys': 'RAM Cache Keys',
 'Ram Cleared': 'Ram Cleared',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Receitas',
 'Record': 'Registro',
 'record does not exist': 'registro não existe',
@@ -163,11 +236,15 @@
 'Record id': 'id do registro',
 'Register': 'Registre-se',
 'register': 'Registre-se',
+<<<<<<< HEAD
 'Registration identifier': 'Idenficador de registro',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Registration key': 'Chave de registro',
 'Reset Password key': 'Resetar chave de senha',
 'Resources': 'Recursos',
 'Role': 'Papel',
+<<<<<<< HEAD
 'Roles': 'Roles',
 'Rows in Table': 'Linhas na tabela',
 'Rows selected': 'Linhas selecionadas',
@@ -176,6 +253,13 @@
 'Services': 'Serviço',
 'Setting': 'Setting',
 'Sign Up': 'Sign Up',
+=======
+'Registration identifier': 'Idenficador de registro',
+'Rows in Table': 'Linhas na tabela',
+'Rows selected': 'Linhas selecionadas',
+'Semantic': 'Semântico',
+'Services': 'Serviço',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Size of cache:': 'Tamanho do cache:',
 'state': 'estado',
 'Statistics': 'Estatísticas',
@@ -183,10 +267,15 @@
 'submit': 'enviar',
 'Support': 'Suporte',
 'Sure you want to delete this object?': 'Está certo(a) que deseja apagar este objeto?',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': 'Tabela',
 'Table name': 'Nome da tabela',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': 'Tabela',
+'Table name': 'Nome da tabela',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': 'Uma "consulta" é uma condição como "db.tabela1.campo1==\'valor\'". Expressões como "db.tabela1.campo1==db.tabela2.campo2" resultam em um JOIN SQL.',
 'The Core': 'The Core',
 'The output of the file is a dictionary that was rendered by the view %s': 'A saída do arquivo é um dicionário que foi apresentado pela visão %s',
@@ -196,27 +285,45 @@
 'This is a copy of the scaffolding application': 'Isto é uma cópia da aplicação modelo',
 'Time in Cache (h:m:s)': 'Tempo em Cache (h:m:s)',
 'Timestamp': 'Timestamp',
+<<<<<<< HEAD
 'Traceback': 'Traceback',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Twitter': 'Twitter',
 'unable to parse csv file': 'não foi possível analisar arquivo csv',
 'Update:': 'Atualizar:',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': 'Use (...)&(...) para AND, (...)|(...) para OR, e ~(...)  para NOT para construir consultas mais complexas.',
+<<<<<<< HEAD
 'User': 'User',
 'User ID': 'ID do Usuário',
 'User Voice': 'Opinião dos usuários',
 'Users': 'Users',
+=======
+'User ID': 'ID do Usuário',
+'User Voice': 'Opinião dos usuários',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Videos': 'Vídeos',
 'View': 'Visualização',
 'Web2py': 'Web2py',
 'Welcome': 'Bem-vindo',
 'Welcome %s': 'Bem-vindo %s',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
 'Welcome to web2py': 'Bem-vindo ao web2py',
 'Welcome to web2py!': 'Bem-vindo ao web2py!',
 'Which called the function %s located in the file %s': 'Que chamou a função %s localizada no arquivo %s',
 'Working...': 'Trabalhando...',
+=======
+'Welcome to web2py': 'Bem-vindo ao web2py',
+'Welcome to web2py!': 'Bem-vindo ao web2py!',
+'Which called the function %s located in the file %s': 'Que chamou a função %s localizada no arquivo %s',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'You are successfully running web2py': 'Você está executando o web2py com sucesso',
 'You are successfully running web2py.': 'Você está executando o web2py com sucesso.',
 'You can modify this application and adapt it to your needs': 'Você pode modificar esta aplicação e adaptá-la às suas necessidades',
 'You visited the url %s': 'Você acessou a url %s',
+<<<<<<< HEAD
+=======
+'Working...': 'Trabalhando...',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 }

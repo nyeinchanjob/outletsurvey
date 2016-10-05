@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+# coding: utf8
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 {
 '!langcode!': 'zh-cn',
 '!langname!': '中文',
@@ -8,6 +12,7 @@
 '%s selected': '%s 已选择',
 '%Y-%m-%d': '%Y-%m-%d',
 '%Y-%m-%d %H:%M:%S': '%Y-%m-%d %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '(something like "it-it")': '(格式类似 "zh-tw")',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
@@ -15,6 +20,9 @@
 '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
 '?': '?',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+'(something like "it-it")': '(格式类似 "zh-tw")',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'A new version of web2py is available': '新版 web2py 已推出',
 'A new version of web2py is available: %s': '新版 web2py 已推出: %s',
 'about': '关于',
@@ -28,7 +36,10 @@
 'Administrator Password:': '管理员密码:',
 'Ajax Recipes': 'Ajax Recipes',
 'An error occured, please %s the page': 'An error occured, please %s the page',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'appadmin is disabled because insecure channel': '管理界面在非安全通道下被禁用',
 'Are you sure you want to delete file "%s"?': '确定要删除文件"%s"?',
 'Are you sure you want to delete this object?': '确定要删除该对象么？',
@@ -40,11 +51,16 @@
 'Authentication': '验证',
 'Available Databases and Tables': '可提供的数据库和数据表',
 'Buy this book': '购买本书',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'cache': '高速缓存',
 'Cache': 'Cache',
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'cache': '高速缓存',
+'Cache': 'Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Cache Keys',
 'Cannot be empty': '不可空白',
 'Cannot compile: there are errors in your app.        Debug it, correct errors and try again.': '编译失败:应用程序有错误，请排除错误后再尝试编译.',
@@ -56,10 +72,15 @@
 'Clear DISK': 'Clear DISK',
 'Clear RAM': 'Clear RAM',
 'Client IP': '客户端网址(IP)',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
 'Community': 'Community',
 'Components and Plugins': 'Components and Plugins',
 'Config.ini': 'Config.ini',
+=======
+'Community': 'Community',
+'Components and Plugins': 'Components and Plugins',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Controller': '控件',
 'Controllers': '控件',
 'Copyright': '版权所有',
@@ -73,7 +94,10 @@
 'data uploaded': '数据已上传',
 'Database': '数据库',
 'Database %s select': '已选择 %s 数据库',
+<<<<<<< HEAD
 'Database Administration (appadmin)': 'Database Administration (appadmin)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Date and Time': '日期和时间',
 'db': 'db',
 'DB Model': '数据库模型',
@@ -84,13 +108,19 @@
 'Deployment Recipes': 'Deployment Recipes',
 'Description': '描述',
 'DESIGN': '设计',
+<<<<<<< HEAD
 'Design': 'Design',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'design': '设计',
 'Design for': '设计用于',
 'DISK': 'DISK',
 'Disk Cache Keys': 'Disk Cache Keys',
 'Disk Cleared': 'Disk Cleared',
+<<<<<<< HEAD
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Documentation',
 "Don't know what to do?": "Don't know what to do?",
 'done!': '完成!',
@@ -112,23 +142,35 @@
 'export as csv file': '以CSV格式导出',
 'FAQ': 'FAQ',
 'First name': '名',
+<<<<<<< HEAD
 'Forget': 'Forget',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Forgot username?': '忘记用户名？',
 'Forms and Validators': 'Forms and Validators',
 'Free Applications': 'Free Applications',
 'Functions with no doctests will result in [passed] tests.': '沒有 doctests 的函数会显示 [passed].',
+<<<<<<< HEAD
 'Graph Model': 'Graph Model',
 'Group ID': '群组编号',
 'Groups': 'Groups',
 'Hello World': 'Hello World',
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+'Group ID': '群组编号',
+'Groups': 'Groups',
+'Hello World': 'Hello World',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Home',
 'How did you get here?': 'How did you get here?',
 'import': 'import',
 'Import/Export': '导入/导出',
 'Index': '索引',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': '插入新纪录',
 'insert new %s': '插入新纪录 %s',
 'Installed applications': '已安裝应用程序',
@@ -149,8 +191,11 @@
 'Layouts': 'Layouts',
 'License for': '软件授权',
 'Live Chat': 'Live Chat',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'login': '登录',
 'Login': '登录',
 'Login to the Administrative Interface': '登录到管理员界面',
@@ -159,10 +204,14 @@
 'Lost Password': '忘记密码',
 'Lost password?': '忘记密码？',
 'Main Menu': '主菜单',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Manage Cache',
 'Memberships': 'Memberships',
+=======
+'Manage Cache': 'Manage Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': '菜单模型(menu)',
 'Models': '数据模型',
 'Modified By': '修改者',
@@ -172,6 +221,7 @@
 'Name': '名字',
 'New Record': '新记录',
 'new record inserted': '已插入新记录',
+<<<<<<< HEAD
 'next %s rows': 'next %s rows',
 'next 100 rows': '往后 100 笔',
 'NO': '否',
@@ -179,18 +229,28 @@
 'Number of entries: **%s**': 'Number of entries: **%s**',
 'Object or table name': 'Object or table name',
 'Online book': 'Online book',
+=======
+'next 100 rows': '往后 100 笔',
+'NO': '否',
+'No databases in this application': '该应用程序不含数据库',
+'Object or table name': 'Object or table name',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': '点击进入在线例子',
 'or import from csv file': '或导入CSV文件',
 'Origin': '原文',
 'Original/Translation': '原文/翻译',
 'Other Plugins': 'Other Plugins',
 'Other Recipes': 'Other Recipes',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Overview': '概览',
 'Password': '密码',
 "Password fields don't match": '密码不匹配',
 'Peeking at file': '选择文件',
+<<<<<<< HEAD
 'Permission': 'Permission',
 'Permissions': 'Permissions',
 'Plugins': 'Plugins',
@@ -202,11 +262,22 @@
 'Python': 'Python',
 'Query:': '查询:',
 'Questions': 'Questions',
+=======
+'Plugins': 'Plugins',
+'Powered by': '基于下列技术构建：',
+'Preface': 'Preface',
+'previous 100 rows': '往前 100 笔',
+'Python': 'Python',
+'Query:': '查询:',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Quick Examples',
 'RAM': 'RAM',
 'RAM Cache Keys': 'RAM Cache Keys',
 'Ram Cleared': 'Ram Cleared',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Recipes',
 'Record': '记录',
 'record does not exist': '记录不存在',
@@ -221,6 +292,7 @@
 'Reset Password key': '重置密码',
 'Resolve Conflict file': '解决冲突文件',
 'Role': '角色',
+<<<<<<< HEAD
 'Roles': 'Roles',
 'Rows in Table': '在数据表里的记录',
 'Rows selected': '笔记录被选择',
@@ -230,6 +302,13 @@
 'Services': 'Services',
 'Setting': 'Setting',
 'Sign Up': 'Sign Up',
+=======
+'Rows in Table': '在数据表里的记录',
+'Rows selected': '笔记录被选择',
+'Saved file hash:': '已保存文件的哈希值:',
+'Semantic': 'Semantic',
+'Services': 'Services',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Size of cache:': 'Size of cache:',
 'state': '状态',
 'Static files': '静态文件',
@@ -239,10 +318,15 @@
 'Submit': '提交',
 'Support': 'Support',
 'Sure you want to delete this object?': '确定要删除此对象？',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': '数据表',
 'Table name': '数据表名称',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': '数据表',
+'Table name': '数据表名称',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Testing application': '测试中的应用程序',
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': '"query"应是类似 "db.table1.field1==\'value\'" 的条件表达式. "db.table1.field1==db.table2.field2"的形式则代表执行 JOIN SQL.',
 'The Core': 'The Core',
@@ -259,7 +343,10 @@
 'Ticket': '问题清单',
 'Time in Cache (h:m:s)': 'Time in Cache (h:m:s)',
 'Timestamp': '时间戳',
+<<<<<<< HEAD
 'Traceback': 'Traceback',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Twitter': 'Twitter',
 'Unable to check for upgrades': '查询新版本失败',
 'Unable to download': '无法下载',
@@ -268,22 +355,34 @@
 'Update:': '更新:',
 'Upload existing application': '上传已有应用程序',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': '使用下列方式可得到更复杂的条件表达式, (...)&(...) 代表必须都满足, (...)|(...) 代表其一, ~(...)则代表否.',
+<<<<<<< HEAD
 'User': 'User',
 'User %(id)s Logged-in': '用户 %(id)s 已登录',
 'User %(id)s Registered': '用户 %(id)s 已注册',
 'User ID': '用户编号',
 'Users': 'Users',
+=======
+'User %(id)s Logged-in': '用户 %(id)s 已登录',
+'User %(id)s Registered': '用户 %(id)s 已注册',
+'User ID': '用户编号',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Verify Password': '验证密码',
 'Videos': '视频',
 'View': '查看',
 'Views': '视图',
 'Welcome': '欢迎',
 'Welcome %s': '欢迎 %s',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
 'Welcome to web2py': '欢迎使用 web2py',
 'Welcome to web2py!': '欢迎使用 web2py!',
 'Which called the function %s located in the file %s': 'Which called the function %s located in the file %s',
 'Working...': 'Working...',
+=======
+'Welcome to web2py': '欢迎使用 web2py',
+'Welcome to web2py!': '欢迎使用 web2py!',
+'Which called the function %s located in the file %s': 'Which called the function %s located in the file %s',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'YES': '是',
 'You are successfully running web2py': '您已成功运行 web2py',
 'You can modify this application and adapt it to your needs': '请根据您的需要修改本程序',

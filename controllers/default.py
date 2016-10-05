@@ -7,11 +7,15 @@
 # - user is required for authentication and authorization
 # - download is for downloading files uploaded in the db (does streaming)
 # -------------------------------------------------------------------------
+<<<<<<< HEAD
 from gluon.contrib.appconfig import AppConfig
 from gluon.serializers import json
 from gluon.tools import geocode
 
 @auth.requires_login()
+=======
+
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 
 def index():
     """
@@ -44,6 +48,7 @@ def user():
     return dict(form=auth())
 
 
+<<<<<<< HEAD
 latitude = longitude = ''
 def getGPS():
     form=SQLFORM.factory(Field('search'), _class='form-search')
@@ -117,6 +122,8 @@ def surveydetaillist():
     grid = SQLFORM.grid(where, create=False, editable=False, details=False, csv=False)
     return dict(grid=grid)
 
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 @cache.action()
 def download():
     """
@@ -125,10 +132,13 @@ def download():
     """
     return response.download(request, db)
 
+<<<<<<< HEAD
 def about():
 
     response.moduleTitle = 'About'
     return dict(message=T('Welcome Outlet Survey System!'))
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 
 def call():
     """
@@ -138,3 +148,8 @@ def call():
     supports xml, json, xmlrpc, jsonrpc, amfrpc, rss, csv
     """
     return service()
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0

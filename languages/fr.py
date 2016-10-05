@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+# coding: utf8
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 {
 '!langcode!': 'fr',
 '!langname!': 'Français',
@@ -8,28 +12,39 @@
 '%s selected': '%s sélectionné',
 '%Y-%m-%d': '%Y-%m-%d',
 '%Y-%m-%d %H:%M:%S': '%Y-%m-%d %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
 '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}',
 '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
 '?': '?',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'About': 'À propos',
 'Access Control': "Contrôle d'accès",
 'Administrative Interface': "Interface d'administration",
 'Administrative interface': "Interface d'administration",
 'Ajax Recipes': 'Recettes Ajax',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'appadmin is disabled because insecure channel': "appadmin est désactivée parce que le canal n'est pas sécurisé",
 'Are you sure you want to delete this object?': 'Êtes-vous sûr de vouloir supprimer cet objet?',
 'Authentication': 'Authentification',
 'Available Databases and Tables': 'Bases de données et tables disponibles',
 'Buy this book': 'Acheter ce livre',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'cache': 'cache',
 'Cache': 'Cache',
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'cache': 'cache',
+'Cache': 'Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Clés de cache',
 'Cannot be empty': 'Ne peut pas être vide',
 'change password': 'changer le mot de passe',
@@ -39,10 +54,15 @@
 'Clear DISK': 'Vider le DISQUE',
 'Clear RAM': 'Vider la RAM',
 'Client IP': 'IP client',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
 'Community': 'Communauté',
 'Components and Plugins': 'Composants et Plugins',
 'Config.ini': 'Config.ini',
+=======
+'Community': 'Communauté',
+'Components and Plugins': 'Composants et Plugins',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Controller': 'Contrôleur',
 'Copyright': 'Copyright',
 'Created By': 'Créé par',
@@ -54,7 +74,10 @@
 'data uploaded': 'données téléchargées',
 'Database': 'base de données',
 'Database %s select': 'base de données %s selectionnée',
+<<<<<<< HEAD
 'Database Administration (appadmin)': 'Database Administration (appadmin)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'db': 'bdd',
 'DB Model': 'Modèle BDD',
 'Delete:': 'Supprimer:',
@@ -62,11 +85,17 @@
 'Deployment Recipes': 'Recettes de déploiement',
 'Description': 'Description',
 'design': 'design',
+<<<<<<< HEAD
 'Design': 'Design',
 'DISK': 'DISQUE',
 'Disk Cache Keys': 'Clés de cache du disque',
 'Disk Cleared': 'Disque vidé',
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'DISK': 'DISQUE',
+'Disk Cache Keys': 'Clés de cache du disque',
+'Disk Cleared': 'Disque vidé',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Documentation',
 "Don't know what to do?": 'Vous ne savez pas quoi faire?',
 'done!': 'fait!',
@@ -82,6 +111,7 @@
 'export as csv file': 'exporter sous forme de fichier csv',
 'FAQ': 'FAQ',
 'First name': 'Prénom',
+<<<<<<< HEAD
 'Forget': 'Forget',
 'Forms and Validators': 'Formulaires et Validateurs',
 'Free Applications': 'Applications gratuites',
@@ -92,12 +122,23 @@
 'Hello World': 'Bonjour le monde',
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+'Forms and Validators': 'Formulaires et Validateurs',
+'Free Applications': 'Applications gratuites',
+'Function disabled': 'Fonction désactivée',
+'Group ID': 'Groupe ID',
+'Groups': 'Groupes',
+'Hello World': 'Bonjour le monde',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Accueil',
 'How did you get here?': 'Comment êtes-vous arrivé ici?',
 'import': 'import',
 'Import/Export': 'Importer/Exporter',
 'Index': 'Index',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': 'insérer un nouveau',
 'insert new %s': 'insérer un nouveau %s',
 'Internal State': 'État interne',
@@ -113,8 +154,11 @@
 'Layouts': 'Mises en page',
 'Live chat': 'Chat en direct',
 'Live Chat': 'Chat en direct',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'login': 'connectez-vous',
 'Login': 'Connectez-vous',
 'logout': 'déconnectez-vous',
@@ -123,10 +167,14 @@
 'Lost password?': 'Mot de passe perdu?',
 'lost password?': 'mot de passe perdu?',
 'Main Menu': 'Menu principal',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Gérer le Cache',
 'Memberships': 'Memberships',
+=======
+'Manage Cache': 'Gérer le Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': 'Menu modèle',
 'Modified By': 'Modifié par',
 'Modified On': 'Modifié le',
@@ -134,17 +182,24 @@
 'Name': 'Nom',
 'New Record': 'Nouvel enregistrement',
 'new record inserted': 'nouvel enregistrement inséré',
+<<<<<<< HEAD
 'next %s rows': 'next %s rows',
 'next 100 rows': '100 prochaines lignes',
 'No databases in this application': "Cette application n'a pas de bases de données",
 'Number of entries: **%s**': 'Number of entries: **%s**',
 'Object or table name': 'Objet ou nom de table',
 'Online book': 'Online book',
+=======
+'next 100 rows': '100 prochaines lignes',
+'No databases in this application': "Cette application n'a pas de bases de données",
+'Object or table name': 'Objet ou nom de table',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'Exemples en ligne',
 'or import from csv file': "ou importer d'un fichier CSV",
 'Origin': 'Origine',
 'Other Plugins': 'Autres Plugins',
 'Other Recipes': 'Autres recettes',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
 'Overview': 'Présentation',
@@ -161,11 +216,25 @@
 'Python': 'Python',
 'Query:': 'Requête:',
 'Questions': 'Questions',
+=======
+'Overview': 'Présentation',
+'Password': 'Mot de passe',
+"Password fields don't match": 'Les mots de passe ne correspondent pas',
+'Plugins': 'Plugins',
+'Powered by': 'Alimenté par',
+'Preface': 'Préface',
+'previous 100 rows': '100 lignes précédentes',
+'Python': 'Python',
+'Query:': 'Requête:',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Exemples Rapides',
 'RAM': 'RAM',
 'RAM Cache Keys': 'Clés de cache de la RAM',
 'Ram Cleared': 'Ram vidée',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Readme': 'Lisez-moi',
 'Recipes': 'Recettes',
 'Record': 'enregistrement',
@@ -181,6 +250,7 @@
 'Reset Password key': 'Réinitialiser le mot clé',
 'Resources': 'Ressources',
 'Role': 'Rôle',
+<<<<<<< HEAD
 'Roles': 'Roles',
 'Rows in Table': 'Lignes du tableau',
 'Rows selected': 'Lignes sélectionnées',
@@ -189,6 +259,12 @@
 'Services': 'Services',
 'Setting': 'Setting',
 'Sign Up': 'Sign Up',
+=======
+'Rows in Table': 'Lignes du tableau',
+'Rows selected': 'Lignes sélectionnées',
+'Semantic': 'Sémantique',
+'Services': 'Services',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Size of cache:': 'Taille du cache:',
 'state': 'état',
 'Statistics': 'Statistiques',
@@ -197,10 +273,15 @@
 'Submit': 'Soumettre',
 'Support': 'Support',
 'Sure you want to delete this object?': 'Êtes-vous sûr de vouloir supprimer cet objet?',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': 'tableau',
 'Table name': 'Nom du tableau',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': 'tableau',
+'Table name': 'Nom du tableau',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': 'La "requête" est une condition comme "db.table1.champ1==\'valeur\'". Quelque chose comme "db.table1.champ1==db.table2.champ2" résulte en un JOIN SQL.',
 'The Core': 'Le noyau',
 'The output of the file is a dictionary that was rendered by the view %s': 'La sortie de ce fichier est un dictionnaire qui été restitué par la vue %s',
@@ -209,28 +290,43 @@
 'This is a copy of the scaffolding application': "Ceci est une copie de l'application échafaudage",
 'Time in Cache (h:m:s)': 'Temps en Cache (h:m:s)',
 'Timestamp': 'Horodatage',
+<<<<<<< HEAD
 'Traceback': 'Traceback',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Twitter': 'Twitter',
 'unable to parse csv file': "incapable d'analyser le fichier cvs",
 'Update:': 'Mise à jour:',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': 'Employez (...)&(...) pour AND, (...)|(...) pour OR, and ~(...)  pour NOT afin de construire des requêtes plus complexes.',
+<<<<<<< HEAD
 'User': 'User',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'User %(id)s Logged-in': 'Utilisateur %(id)s connecté',
 'User %(id)s Registered': 'Utilisateur %(id)s enregistré',
 'User ID': 'ID utilisateur',
 'User Voice': "Voix de l'utilisateur",
+<<<<<<< HEAD
 'Users': 'Users',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Verify Password': 'Vérifiez le mot de passe',
 'Videos': 'Vidéos',
 'View': 'Présentation',
 'Web2py': 'Web2py',
 'Welcome': 'Bienvenue',
 'Welcome %s': 'Bienvenue %s',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
 'Welcome to web2py': 'Bienvenue à web2py',
 'Welcome to web2py!': 'Bienvenue à web2py!',
 'Which called the function %s located in the file %s': 'Qui a appelé la fonction %s se trouvant dans le fichier %s',
 'Working...': 'Working...',
+=======
+'Welcome to web2py': 'Bienvenue à web2py',
+'Welcome to web2py!': 'Bienvenue à web2py!',
+'Which called the function %s located in the file %s': 'Qui a appelé la fonction %s se trouvant dans le fichier %s',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'You are successfully running web2py': 'Vous exécutez avec succès web2py',
 'You can modify this application and adapt it to your needs': "Vous pouvez modifier cette application et l'adapter à vos besoins",
 'You visited the url %s': "Vous avez visité l'URL %s",

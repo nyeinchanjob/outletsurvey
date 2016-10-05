@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+# coding: utf8
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 {
 '!langcode!': 'de',
 '!langname!': 'Deutsch (DE)',
@@ -13,6 +17,7 @@
 '%s selected': '%s selected',
 '%Y-%m-%d': '%Y-%m-%d',
 '%Y-%m-%d %H:%M:%S': '%Y-%m-%d %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
 '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}',
@@ -21,20 +26,34 @@
 '@markmin\x01**Hello World**': '**Hallo Welt**',
 '@markmin\x01An error occured, please [[reload %s]] the page': 'Ein Fehler ist aufgetreten, bitte [[laden %s]] Sie die Seite neu',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+'?': '?',
+'@markmin\x01**Hello World**': '**Hallo Welt**',
+'@markmin\x01An error occured, please [[reload %s]] the page': 'Ein Fehler ist aufgetreten, bitte [[laden %s]] Sie die Seite neu',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'About': 'Über',
 'Access Control': 'Zugangskontrolle',
 'Administrative Interface': 'Administrationsoberfläche',
 'Ajax Recipes': 'Ajax Rezepte',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'appadmin is disabled because insecure channel': 'Appadmin ist deaktiviert, wegen der Benutzung eines unsicheren Kanals',
 'Are you sure you want to delete this object?': 'Sind Sie sich sicher, dass Sie dieses Objekt löschen wollen?',
 'Available Databases and Tables': 'Verfügbare Datenbanken und Tabellen',
 'Buy this book': 'Dieses Buch kaufen',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'cache': 'cache',
 'Cache': 'Cache',
 'Cache Cleared': 'Cache geleert',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'cache': 'cache',
+'Cache': 'Cache',
+'Cache Cleared': 'Cache geleert',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Cache Schlüssel',
 'Cannot be empty': 'Darf nicht leer sein',
 'Check to delete': 'Auswählen um zu löschen',
@@ -42,10 +61,15 @@
 'Clear DISK': 'DISK löschen',
 'Clear RAM': 'RAM löschen',
 'Client IP': 'Client IP',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
 'Community': 'Community',
 'Components and Plugins': 'Komponenten und Plugins',
 'Config.ini': 'Config.ini',
+=======
+'Community': 'Community',
+'Components and Plugins': 'Komponenten und Plugins',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Controller': 'Controller',
 'Copyright': 'Copyright',
 'Created By': 'Erstellt von',
@@ -65,11 +89,17 @@
 'Deployment Recipes': 'Entwicklungsrezepte',
 'Description': 'Beschreibung',
 'design': 'Design',
+<<<<<<< HEAD
 'Design': 'Design',
 'DISK': 'DISK',
 'Disk Cache Keys': 'Disk Cache Keys',
 'Disk Cleared': 'Disk gelöscht',
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'DISK': 'DISK',
+'Disk Cache Keys': 'Disk Cache Keys',
+'Disk Cleared': 'Disk gelöscht',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Dokumentation',
 "Don't know what to do?": 'Wissen Sie nicht weiter?',
 'done!': 'Fertig!',
@@ -84,7 +114,10 @@
 'export as csv file': 'als csv Datei exportieren',
 'FAQ': 'FAQ',
 'First name': 'Vorname',
+<<<<<<< HEAD
 'Forget': 'Forget',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Forms and Validators': 'Forms und Validators',
 'Free Applications': 'Kostenlose Anwendungen',
 'Graph Model': 'Muster-Graph',
@@ -95,13 +128,19 @@
 'Hello World': 'Hallo Welt',
 'Hello World  ## Kommentar': 'Hallo Welt  ',
 'Hello World## Kommentar': 'Hallo Welt',
+<<<<<<< HEAD
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Startseite',
 'How did you get here?': 'Wie sind Sie hier her gelangt?',
 'import': 'Importieren',
 'Import/Export': 'Importieren/Exportieren',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Internal State': 'Innerer Zustand',
 'Introduction': 'Einführung',
 'Invalid email': 'Ungültige Email',
@@ -114,8 +153,11 @@
 'Layout Plugins': 'Layout Plugins',
 'Layouts': 'Layouts',
 'Live Chat': 'Live Chat',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Logged in': 'Eingeloggt',
 'Logged out': 'Ausgeloggt',
 'Login': 'Einloggen',
@@ -135,16 +177,23 @@
 'new record inserted': 'neuer Eintrag hinzugefügt',
 'next %s rows': 'nächste %s Reihen',
 'No databases in this application': 'Keine Datenbank in dieser Anwendung',
+<<<<<<< HEAD
 'Number of entries: **%s**': 'Number of entries: **%s**',
 'Object or table name': 'Objekt- oder Tabellenname',
 'Online book': 'Online book',
+=======
+'Object or table name': 'Objekt- oder Tabellenname',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'Online Beispiele',
 'or import from csv file': 'oder von csv Datei importieren',
 'Origin': 'Ursprung',
 'Other Plugins': 'Andere Plugins',
 'Other Recipes': 'Andere Rezepte',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Overview': 'Überblick',
 'Password': 'Passwort',
 "Password fields don't match": 'Passwortfelder sind nicht gleich',
@@ -159,12 +208,18 @@
 'pygraphviz library not found': 'pygraphviz Bibliothek wurde nicht gefunden',
 'Python': 'Python',
 'Query:': 'Query:',
+<<<<<<< HEAD
 'Questions': 'Questions',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Kurze Beispiele',
 'RAM': 'RAM',
 'RAM Cache Keys': 'RAM Cache Keys',
 'Ram Cleared': 'Ram Cleared',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Rezepte',
 'Record': 'Eintrag',
 'record does not exist': 'Eintrag existiert nicht',
@@ -183,17 +238,24 @@
 'Save model as...': 'Speichere Vorlage als...',
 'Semantic': 'Semantik',
 'Services': 'Dienste',
+<<<<<<< HEAD
 'Setting': 'Setting',
 'Sign Up': 'Sign Up',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Size of cache:': 'Cachegröße:',
 'state': 'Status',
 'Statistics': 'Statistik',
 'Stylesheet': 'Stylesheet',
 'submit': 'Submit',
 'Support': 'Support',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': 'Tabelle',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': 'Tabelle',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': 'Die "query" ist eine Bedingung wie "db.tabelle1.feld1==\'wert\'". So etwas wie "db.tabelle1.feld1==db.tabelle2.feld2" resultiert in einem SQL JOIN.',
 'The Core': 'Der Core',
 'The output of the file is a dictionary that was rendered by the view %s': 'Die Ausgabe der Datei ist ein "dictionary", welches vom "view" %s gerendert wurde',
@@ -218,7 +280,10 @@
 'Videos': 'Videos',
 'View': 'Ansicht',
 'Welcome': 'Willkommen',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Welcome to web2py!': 'Willkommen bei web2py!',
 'Which called the function %s located in the file %s': 'Welche die Funktion %s in der Datei %s aufrief',
 'Working...': 'Arbeite...',

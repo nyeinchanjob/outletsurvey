@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+# coding: utf8
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 {
 '!langcode!': 'hu',
 '!langname!': 'Magyar',
@@ -8,27 +12,38 @@
 '%s selected': '%s kiválasztott',
 '%Y-%m-%d': '%Y.%m.%d.',
 '%Y-%m-%d %H:%M:%S': '%Y.%m.%d. %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
 '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}',
 '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
 '?': '?',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'About': 'About',
 'Access Control': 'Access Control',
 'Administrative Interface': 'Administrative Interface',
 'Administrative interface': 'az adminisztrációs felületért kattints ide',
 'Ajax Recipes': 'Ajax Recipes',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'appadmin is disabled because insecure channel': 'az appadmin a biztonságtalan csatorna miatt letiltva',
 'Are you sure you want to delete this object?': 'Are you sure you want to delete this object?',
 'Available Databases and Tables': 'Elérhető adatbázisok és táblák',
 'Buy this book': 'Buy this book',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'cache': 'gyorsítótár',
 'Cache': 'Cache',
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'cache': 'gyorsítótár',
+'Cache': 'Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Cache Keys',
 'Cannot be empty': 'Nem lehet üres',
 'change password': 'jelszó megváltoztatása',
@@ -37,10 +52,15 @@
 'Clear DISK': 'Clear DISK',
 'Clear RAM': 'Clear RAM',
 'Client IP': 'Client IP',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
 'Community': 'Community',
 'Components and Plugins': 'Components and Plugins',
 'Config.ini': 'Config.ini',
+=======
+'Community': 'Community',
+'Components and Plugins': 'Components and Plugins',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Controller': 'Controller',
 'Copyright': 'Copyright',
 'Current request': 'Jelenlegi lekérdezés',
@@ -50,7 +70,10 @@
 'data uploaded': 'adat feltöltve',
 'Database': 'adatbázis',
 'Database %s select': 'adatbázis %s kiválasztás',
+<<<<<<< HEAD
 'Database Administration (appadmin)': 'Database Administration (appadmin)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'db': 'db',
 'DB Model': 'DB Model',
 'Delete:': 'Töröl:',
@@ -58,11 +81,17 @@
 'Deployment Recipes': 'Deployment Recipes',
 'Description': 'Description',
 'design': 'design',
+<<<<<<< HEAD
 'Design': 'Design',
 'DISK': 'DISK',
 'Disk Cache Keys': 'Disk Cache Keys',
 'Disk Cleared': 'Disk Cleared',
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'DISK': 'DISK',
+'Disk Cache Keys': 'Disk Cache Keys',
+'Disk Cleared': 'Disk Cleared',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Documentation',
 "Don't know what to do?": "Don't know what to do?",
 'done!': 'kész!',
@@ -77,6 +106,7 @@
 'export as csv file': 'exportál csv fájlba',
 'FAQ': 'FAQ',
 'First name': 'First name',
+<<<<<<< HEAD
 'Forget': 'Forget',
 'Forms and Validators': 'Forms and Validators',
 'Free Applications': 'Free Applications',
@@ -86,12 +116,22 @@
 'Hello World': 'Hello Világ',
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+'Forms and Validators': 'Forms and Validators',
+'Free Applications': 'Free Applications',
+'Group ID': 'Group ID',
+'Groups': 'Groups',
+'Hello World': 'Hello Világ',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Home',
 'How did you get here?': 'How did you get here?',
 'import': 'import',
 'Import/Export': 'Import/Export',
 'Index': 'Index',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': 'új beillesztése',
 'insert new %s': 'új beillesztése %s',
 'Internal State': 'Internal State',
@@ -105,32 +145,45 @@
 'Layout Plugins': 'Layout Plugins',
 'Layouts': 'Layouts',
 'Live Chat': 'Live Chat',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'login': 'belép',
 'logout': 'kilép',
 'lost password': 'elveszett jelszó',
 'Lost Password': 'Lost Password',
 'Main Menu': 'Főmenü',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Manage Cache',
 'Memberships': 'Memberships',
+=======
+'Manage Cache': 'Manage Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': 'Menü model',
 'My Sites': 'My Sites',
 'Name': 'Name',
 'New Record': 'Új bejegyzés',
 'new record inserted': 'új bejegyzés felvéve',
+<<<<<<< HEAD
 'next %s rows': 'next %s rows',
 'next 100 rows': 'következő 100 sor',
 'No databases in this application': 'Nincs adatbázis ebben az alkalmazásban',
 'Number of entries: **%s**': 'Number of entries: **%s**',
 'Online book': 'Online book',
+=======
+'next 100 rows': 'következő 100 sor',
+'No databases in this application': 'Nincs adatbázis ebben az alkalmazásban',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'online példákért kattints ide',
 'or import from csv file': 'vagy betöltés csv fájlból',
 'Origin': 'Origin',
 'Other Plugins': 'Other Plugins',
 'Other Recipes': 'Other Recipes',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
 'Overview': 'Overview',
@@ -146,11 +199,24 @@
 'Python': 'Python',
 'Query:': 'Lekérdezés:',
 'Questions': 'Questions',
+=======
+'Overview': 'Overview',
+'Password': 'Password',
+'Plugins': 'Plugins',
+'Powered by': 'Powered by',
+'Preface': 'Preface',
+'previous 100 rows': 'előző 100 sor',
+'Python': 'Python',
+'Query:': 'Lekérdezés:',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Quick Examples',
 'RAM': 'RAM',
 'RAM Cache Keys': 'RAM Cache Keys',
 'Ram Cleared': 'Ram Cleared',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Recipes',
 'Record': 'bejegyzés',
 'record does not exist': 'bejegyzés nem létezik',
@@ -161,6 +227,7 @@
 'Registration key': 'Registration key',
 'Reset Password key': 'Reset Password key',
 'Role': 'Role',
+<<<<<<< HEAD
 'Roles': 'Roles',
 'Rows in Table': 'Sorok a táblában',
 'Rows selected': 'Kiválasztott sorok',
@@ -169,6 +236,12 @@
 'Services': 'Services',
 'Setting': 'Setting',
 'Sign Up': 'Sign Up',
+=======
+'Rows in Table': 'Sorok a táblában',
+'Rows selected': 'Kiválasztott sorok',
+'Semantic': 'Semantic',
+'Services': 'Services',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Size of cache:': 'Size of cache:',
 'state': 'állapot',
 'Statistics': 'Statistics',
@@ -176,10 +249,15 @@
 'submit': 'submit',
 'Support': 'Support',
 'Sure you want to delete this object?': 'Biztos törli ezt az objektumot?',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': 'tábla',
 'Table name': 'Table name',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': 'tábla',
+'Table name': 'Table name',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.',
 'The Core': 'The Core',
 'The output of the file is a dictionary that was rendered by the view %s': 'The output of the file is a dictionary that was rendered by the view %s',
@@ -187,11 +265,15 @@
 'This App': 'This App',
 'Time in Cache (h:m:s)': 'Time in Cache (h:m:s)',
 'Timestamp': 'Timestamp',
+<<<<<<< HEAD
 'Traceback': 'Traceback',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Twitter': 'Twitter',
 'unable to parse csv file': 'nem lehet a csv fájlt beolvasni',
 'Update:': 'Frissít:',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.',
+<<<<<<< HEAD
 'User': 'User',
 'User ID': 'User ID',
 'Users': 'Users',
@@ -203,6 +285,15 @@
 'Welcome to web2py!': 'Welcome to web2py!',
 'Which called the function %s located in the file %s': 'Which called the function %s located in the file %s',
 'Working...': 'Working...',
+=======
+'User ID': 'User ID',
+'Videos': 'Videos',
+'View': 'Nézet',
+'Welcome %s': 'Welcome %s',
+'Welcome to web2py': 'Isten hozott a web2py-ban',
+'Welcome to web2py!': 'Welcome to web2py!',
+'Which called the function %s located in the file %s': 'Which called the function %s located in the file %s',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'You are successfully running web2py': 'You are successfully running web2py',
 'You can modify this application and adapt it to your needs': 'You can modify this application and adapt it to your needs',
 'You visited the url %s': 'You visited the url %s',

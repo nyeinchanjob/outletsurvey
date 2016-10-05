@@ -8,8 +8,13 @@
 response.logo = A(B('web', SPAN(2), 'py'), XML('&trade;&nbsp;'),
                   _class="navbar-brand", _href="http://www.web2py.com/",
                   _id="web2py-logo")
+<<<<<<< HEAD
 response.title = 'Outlet Survey System'#request.application.replace('_', ' ').title()
 response.subtitle = 'Coca-Cola Pinya Beverages Myanmar Ltd.'
+=======
+response.title = request.application.replace('_', ' ').title()
+response.subtitle = ''
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 
 # ----------------------------------------------------------------------------------------------------------------------
 # read more at http://dev.w3.org/html5/markup/meta.name.html
@@ -32,7 +37,11 @@ response.menu = [
     (T('Home'), False, URL('default', 'index'), [])
 ]
 
+<<<<<<< HEAD
 DEVELOPMENT_MENU = False
+=======
+DEVELOPMENT_MENU = True
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 
 
 # ----------------------------------------------------------------------------------------------------------------------

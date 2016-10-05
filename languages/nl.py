@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+# coding: utf8
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 {
 '!langcode!': 'nl',
 '!langname!': 'Nederlands',
@@ -11,11 +15,15 @@
 '%s selected': '%s geselecteerd',
 '%Y-%m-%d': '%Y-%m-%d',
 '%Y-%m-%d %H:%M:%S': '%Y-%m-%d %H:%M:%S',
+<<<<<<< HEAD
 '(**%.0d MB**)': '(**%.0d MB**)',
 '(something like "it-it")': '(zoiets als "nl-nl")',
 '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** %%{item(items)}, **%(bytes)s** %%{byte(bytes)}',
 '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}': '**%(items)s** items, **%(bytes)s** %%{byte(bytes)}',
 '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '**not available** (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+'(something like "it-it")': '(zoiets als "nl-nl")',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 '1 day ago': '1 dag geleden',
 '1 week ago': '1 week gelden',
 '<': '<',
@@ -23,8 +31,11 @@
 '=': '=',
 '>': '>',
 '>=': '>=',
+<<<<<<< HEAD
 '?': '?',
 '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)': '``**not available**``:red (requires the Python [[guppy http://pypi.python.org/pypi/guppy/ popup]] library)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'A new version of web2py is available': 'Een nieuwe versie van web2py is beschikbaar',
 'A new version of web2py is available: %s': 'Een nieuwe versie van web2py is beschikbaar: %s',
 'About': 'Over',
@@ -42,7 +53,10 @@
 'Administrative Interface': 'Administratieve Interface',
 'Administrator Password:': 'Administrator Wachtwoord',
 'Ajax Recipes': 'Ajax Recepten',
+<<<<<<< HEAD
 'An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'And': 'En',
 'and rename it (required):': 'en hernoem deze (vereist)',
 'and rename it:': 'en hernoem:',
@@ -61,11 +75,16 @@
 'Available Databases and Tables': 'Beschikbare databases en tabellen',
 'Back': 'Terug',
 'Buy this book': 'Koop dit boek',
+<<<<<<< HEAD
 "Buy web2py's book": "Buy web2py's book",
 'Cache': 'Cache',
 'cache': 'cache',
 'Cache Cleared': 'Cache Cleared',
 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'Cache contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+'Cache': 'Cache',
+'cache': 'cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Cache Keys': 'Cache Keys',
 'cache, errors and sessions cleaned': 'cache, errors en sessies geleegd',
 'Cannot be empty': 'Mag niet leeg zijn',
@@ -84,12 +103,18 @@
 'Clear RAM': 'Clear RAM',
 'click to check for upgrades': 'Klik om voor upgrades te controleren',
 'Client IP': 'Client IP',
+<<<<<<< HEAD
 'Coca-Cola Pinya Beverages Myanmar Ltd.': 'Coca-Cola Pinya Beverages Myanmar Ltd.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Community': 'Community',
 'compile': 'compileren',
 'compiled application removed': 'gecompileerde applicatie verwijderd',
 'Components and Plugins': 'Components en Plugins',
+<<<<<<< HEAD
 'Config.ini': 'Config.ini',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'contains': 'bevat',
 'Controller': 'Controller',
 'Controllers': 'Controllers',
@@ -110,7 +135,10 @@
 'Database': 'Database',
 'Database %s select': 'Database %s select',
 'database administration': 'database administratie',
+<<<<<<< HEAD
 'Database Administration (appadmin)': 'Database Administration (appadmin)',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Date and Time': 'Datum en Tijd',
 'db': 'db',
 'DB Model': 'DB Model',
@@ -125,12 +153,18 @@
 'Description': 'Beschrijving',
 'design': 'design',
 'DESIGN': 'DESIGN',
+<<<<<<< HEAD
 'Design': 'Design',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Design for': 'Design voor',
 'DISK': 'DISK',
 'Disk Cache Keys': 'Disk Cache Keys',
 'Disk Cleared': 'Disk Geleegd',
+<<<<<<< HEAD
 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'DISK contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Documentation': 'Documentatie',
 "Don't know what to do?": 'Weet je niet wat je moet doen?',
 'done!': 'gereed!',
@@ -172,19 +206,28 @@
 'file saved on %s': 'bestand bewaard op %s',
 'First name': 'Voornaam',
 'Forbidden': 'Verboden',
+<<<<<<< HEAD
 'Forget': 'Forget',
 'Forms and Validators': 'Formulieren en Validators',
 'Free Applications': 'Gratis Applicaties',
 'Functions with no doctests will result in [passed] tests.': 'Functies zonder doctests zullen resulteren in [passed] tests.',
 'Graph Model': 'Graph Model',
+=======
+'Forms and Validators': 'Formulieren en Validators',
+'Free Applications': 'Gratis Applicaties',
+'Functions with no doctests will result in [passed] tests.': 'Functies zonder doctests zullen resulteren in [passed] tests.',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Group %(group_id)s created': 'Groep %(group_id)s gemaakt',
 'Group ID': 'Groep ID',
 'Group uniquely assigned to user %(id)s': 'Groep is uniek toegekend aan gebruiker %(id)s',
 'Groups': 'Groepen',
 'Hello World': 'Hallo Wereld',
 'help': 'help',
+<<<<<<< HEAD
 'Helping web2py': 'Helping web2py',
 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})': 'Hit Ratio: **%(ratio)s%%** (**%(hits)s** %%{hit(hits)} and **%(misses)s** %%{miss(misses)})',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Home': 'Home',
 'How did you get here?': 'Hoe ben je hier gekomen?',
 'htmledit': 'Bewerk HTML',
@@ -192,7 +235,10 @@
 'Import/Export': 'Import/Export',
 'includes': 'includes',
 'Index': 'Index',
+<<<<<<< HEAD
 'Information': 'Information',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'insert new': 'voeg nieuwe',
 'insert new %s': 'voeg nieuwe %s',
 'Installed applications': 'Geïnstalleerde applicaties',
@@ -221,8 +267,11 @@
 'License for': 'Licentie voor',
 'Live Chat': 'Live Chat',
 'loading...': 'laden...',
+<<<<<<< HEAD
 'Location': 'Location',
 'Log In': 'Log In',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Logged in': 'Ingelogd',
 'Logged out': 'Uitgelogd',
 'Login': 'Login',
@@ -233,10 +282,14 @@
 'Lost Password': 'Wachtwoord Kwijt',
 'Lost password?': 'Wachtwoord kwijt?',
 'Main Menu': 'Hoofdmenu',
+<<<<<<< HEAD
 'Manage %(action)s': 'Manage %(action)s',
 'Manage Access Control': 'Manage Access Control',
 'Manage Cache': 'Beheer Cache',
 'Memberships': 'Memberships',
+=======
+'Manage Cache': 'Beheer Cache',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Menu Model': 'Menu Model',
 'merge': 'samenvoegen',
 'Models': 'Modellen',
@@ -252,6 +305,7 @@
 'New password': 'Nieuw wachtwoord',
 'New Record': 'Nieuw Record',
 'new record inserted': 'nieuw record ingevoegd',
+<<<<<<< HEAD
 'next %s rows': 'next %s rows',
 'next 100 rows': 'volgende 100 rijen',
 'NO': 'NEE',
@@ -260,6 +314,13 @@
 'Object or table name': 'Object of tabelnaam',
 'Old password': 'Oude wachtwoord',
 'Online book': 'Online book',
+=======
+'next 100 rows': 'volgende 100 rijen',
+'NO': 'NEE',
+'No databases in this application': 'Geen database in deze applicatie',
+'Object or table name': 'Object of tabelnaam',
+'Old password': 'Oude wachtwoord',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Online examples': 'Online voorbeelden',
 'Or': 'Of',
 'or import from csv file': 'of importeer van csv-bestand',
@@ -268,20 +329,27 @@
 'Original/Translation': 'Oorspronkelijk/Vertaling',
 'Other Plugins': 'Andere Plugins',
 'Other Recipes': 'Andere Recepten',
+<<<<<<< HEAD
 'Outlet': 'Outlet',
 'Outlet Type': 'Outlet Type',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Overview': 'Overzicht',
 'pack all': 'pack all',
 'pack compiled': 'pack compiled',
 'Password': 'Wachtwoord',
 "Password fields don't match": 'Wachtwoordvelden komen niet overeen',
 'Peeking at file': 'Naar bestand aan het gluren',
+<<<<<<< HEAD
 'Permission': 'Permission',
 'Permissions': 'Permissions',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'please input your password again': 'geef alstublieft nogmaals uw wachtwoord',
 'Plugins': 'Plugins',
 'Powered by': 'Powered by',
 'Preface': 'Inleiding',
+<<<<<<< HEAD
 'previous %s rows': 'previous %s rows',
 'previous 100 rows': 'vorige 100 rijen',
 'Profile': 'Profiel',
@@ -290,11 +358,21 @@
 'Query': 'Query',
 'Query:': 'Query:',
 'Questions': 'Questions',
+=======
+'previous 100 rows': 'vorige 100 rijen',
+'Profile': 'Profiel',
+'Python': 'Python',
+'Query': 'Query',
+'Query:': 'Query:',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Quick Examples': 'Snelle Voorbeelden',
 'RAM': 'RAM',
 'RAM Cache Keys': 'RAM Cache Keys',
 'Ram Cleared': 'Ram Geleegd',
+<<<<<<< HEAD
 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.': 'RAM contains items up to **%(hours)02d** %%{hour(hours)} **%(min)02d** %%{minute(min)} **%(sec)02d** %%{second(sec)} old.',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Recipes': 'Recepten',
 'Record': 'Record',
 'record does not exist': 'record bestaat niet',
@@ -313,20 +391,30 @@
 'restore': 'herstel',
 'revert': 'herstel',
 'Role': 'Rol',
+<<<<<<< HEAD
 'Roles': 'Roles',
 'Rows in Table': 'Rijen in tabel',
 'Rows selected': 'Rijen geselecteerd',
 'save': 'bewaar',
 'Save model as...': 'Save model as...',
+=======
+'Rows in Table': 'Rijen in tabel',
+'Rows selected': 'Rijen geselecteerd',
+'save': 'bewaar',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'Save profile': 'Bewaar profiel',
 'Saved file hash:': 'Opgeslagen file hash:',
 'Search': 'Zoek',
 'Semantic': 'Semantisch',
 'Services': 'Services',
 'session expired': 'sessie verlopen',
+<<<<<<< HEAD
 'Setting': 'Setting',
 'shell': 'shell',
 'Sign Up': 'Sign Up',
+=======
+'shell': 'shell',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'site': 'site',
 'Size of cache:': 'Grootte van cache:',
 'some files could not be removed': 'sommige bestanden konden niet worden verwijderd',
@@ -340,10 +428,15 @@
 'submit': 'submit',
 'Support': 'Support',
 'Sure you want to delete this object?': 'Weet je zeker dat je dit object wilt verwijderen?',
+<<<<<<< HEAD
 'Survey': 'Survey',
 'Table': 'Tabel',
 'Table name': 'Tabelnaam',
 'Taste the feeling': 'Taste the feeling',
+=======
+'Table': 'Tabel',
+'Table name': 'Tabelnaam',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'test': 'test',
 'Testing application': 'Applicatie testen',
 'The "query" is a condition like "db.table1.field1==\'value\'". Something like "db.table1.field1==db.table2.field2" results in a SQL JOIN.': 'De "query" is een conditie zoals "db.tabel1.veld1==\'waarde\'". Zoiets als "db.tabel1.veld1==db.tabel2.veld2" resulteert in een SQL JOIN.',
@@ -368,7 +461,10 @@
 'Timestamp': 'Timestamp (timestamp)',
 'to  previous version.': 'naar vorige versie.',
 'too short': 'te kort',
+<<<<<<< HEAD
 'Traceback': 'Traceback',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'translation strings for the application': 'vertaalstrings voor de applicatie',
 'True': 'Waar',
 'try': 'probeer',
@@ -390,7 +486,10 @@
 'Upload existing application': 'Upload bestaande applicatie',
 'upload file:': 'upload bestand',
 'Use (...)&(...) for AND, (...)|(...) for OR, and ~(...)  for NOT to build more complex queries.': 'Gebruik (...)&(...) voor AND, (...)|(...) voor OR, en ~(...)  voor NOT om meer complexe queries te maken.',
+<<<<<<< HEAD
 'User': 'User',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'User %(id)s Logged-in': 'Gebruiker %(id)s Logged-in',
 'User %(id)s Logged-out': 'Gebruiker %(id)s Logged-out',
 'User %(id)s Password changed': 'Wachtwoord van gebruiker %(id)s is veranderd',
@@ -398,7 +497,10 @@
 'User %(id)s Profile updated': 'Profiel van Gebruiker %(id)s geupdate',
 'User %(id)s Registered': 'Gebruiker %(id)s Geregistreerd',
 'User ID': 'User ID',
+<<<<<<< HEAD
 'Users': 'Users',
+=======
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'value already in database or empty': 'waarde al in database of leeg',
 'Verify Password': 'Verifieer Wachtwoord',
 'versioning': 'versionering',
@@ -411,11 +513,17 @@
 'web2py Recent Tweets': 'web2py Recente Tweets',
 'Welcome': 'Welkom',
 'Welcome %s': 'Welkom %s',
+<<<<<<< HEAD
 'Welcome Outlet Survey System!': 'Welcome Outlet Survey System!',
 'Welcome to web2py': 'Welkom bij web2py',
 'Welcome to web2py!': 'Welkom bij web2py!',
 'Which called the function %s located in the file %s': 'Die functie %s aanriep en zich bevindt in het bestand %s',
 'Working...': 'Working...',
+=======
+'Welcome to web2py': 'Welkom bij web2py',
+'Welcome to web2py!': 'Welkom bij web2py!',
+'Which called the function %s located in the file %s': 'Die functie %s aanriep en zich bevindt in het bestand %s',
+>>>>>>> db1e5c370a11ef4b666024903a8168bfbbe70ae0
 'YES': 'JA',
 'You are successfully running web2py': 'Je draait web2py succesvol',
 'You can modify this application and adapt it to your needs': 'Je kan deze applicatie aanpassen naar je eigen behoeften',
