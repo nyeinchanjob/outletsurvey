@@ -1,0 +1,37 @@
+body {
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.0rem;
+  line-height: 1rem;
+  letter-spacing: 0.01rem;
+  color: #212121;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.body-color{
+  background-color: #E9EAED;
+}
+
+.full-heigh {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.rounded-block {
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.font-white {
+  color: white;
+}
+
+input {
+  color: white;
+}

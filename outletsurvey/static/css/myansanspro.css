@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Myanmar Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/MyanmarSansPro-Regular.eot);
+  src: url(../fonts/MyanmarSansPro-Regular.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/MyanmarSansPro-Regular.woff2) format('woff2'),
+       url(../fonts/MyanmarSansPro-Regular.woff) format('woff'),
+       url(../fonts/MyanmarSansPro-Regular.ttf) format('truetype');
+}
+
+.myanmar {
+  font-family: 'Myanmar Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}

@@ -1,0 +1,16 @@
+
+.login-card-wide{
+  width: 512px;
+}
+.login-card-wide {
+  color: #fff;
+  height: 176px;
+  background: url('../images/background.jpg') center / cover;
+}
+.login-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+body {
+    background-color: #eee;
+}
