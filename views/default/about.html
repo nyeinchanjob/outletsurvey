@@ -1,0 +1,33 @@
+{{extend 'mylayout.html'}}
+<div layout="row">
+<div flex>
+    &nbsp;
+</div>
+<div flex-xs flex-gt-xs="35" layout="column">
+    <md-card>
+        <img ng-src="{{=URL('static', 'images/coca-cola_strip_phone.png')}}" class="md-card-image" alt="Coca-Cola Pinya Beverages Myanmar Ltd." >
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">ကိုကာ-ကိုလာ ပင်းယ ဗားဗရေ့ချ်စ် မြန်မာ လီမိတက်</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <div>
+                    <h5>{{=T(response.title or request.application)}}</h5>
+                    <h6>{{=T('Copyright')}} &#169; CCPBM {{=request.now.year}}</h6><br/>
+                    <div layout="row" layout-align="start center">
+                        <span>{{=T('Powered by')}}</span><md-button class="md-primary" ng-href="http://www.web2py.com/" target="_blank">Web2py</md-button>
+                    </div>
+                </div>
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+                <md-button class="md-button" aria-label="Home" ng-href="{{=URL('default', 'index')}}">
+                    {{=T('Home')}}
+                </md-button>
+            </md-card-actions>
+    </md-card>
+</div>
+<div flex>
+    &nbsp;
+</div>
+</div>

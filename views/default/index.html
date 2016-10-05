@@ -1,0 +1,34 @@
+{{extend 'mylayout.html'}}
+<div layout="row">
+<div flex>
+    &nbsp;
+</div>
+<div flex-xs flex-gt-xs="35" layout="column">
+    <md-card>
+        <img ng-src="{{=URL('static', 'images/coca-cola_strip_phone.png')}}" class="md-card-image" alt="Washed Out">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">{{=T(response.title or request.application)}}</span>
+                    <span class="md-subhead">{{=T('Coca-Cola Pinya Beverages Myanmar Ltd.')}}</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-divider></md-divider>
+            <md-card-content >
+                <div layout="column" layout-align="center center">
+                    <h4>{{=T("Taste the feeling")}}&#8482;</h4>
+                </div>
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+                <span>{{=T('Copyright')}} &#169; CCPBM {{=request.now.year}}</span>
+                <span flex>&nbsp;</span>
+                <div layout="row" layout-align="start center">
+                    <span>{{=T('Powered by')}}</span><md-button class="md-primary" ng-href="http://www.web2py.com/" target="_blank">Web2py</md-button>
+                </div>
+
+            </md-card-actions>
+    </md-card>
+</div>
+<div flex>
+    &nbsp;
+</div>
+</div>

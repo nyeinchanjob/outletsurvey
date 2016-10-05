@@ -1,0 +1,38 @@
+{{extend 'mylayout.html'}}
+<md-content class="container" md-scroll-y layout="row" layout-align="center center">
+<div flex-xs flex-gt-xs layout="column">
+     <md-card flex layout-align="center start" >
+       <!-- <img ng-src="{{=URL('static', 'images/coca-cola_strip_phone.png')}}" class="md-card-image" alt="Washed Out"> -->
+       <md-card-title>
+         <md-card-title-text>
+           <span class="md-headline">{{=T('Sign Up') if request.args(0) == 'register' else T('Log In') if request.args(0) == 'login' else T(request.args(0).replace('_',' ').title())}}</span>
+         </md-card-title-text>
+       </md-card-title>
+       <md-card-content flex style="width:100%;">
+           <div flex >
+               {{
+                   if request.args(0)=='login':
+                       if not 'register' in auth.settings.actions_disabled:
+                           form.add_button(T('Sign Up'),URL(args='register', vars={'_next': request.vars._next} if request.vars._next else None),_class='btn btn-default')
+                       pass
+                       if not 'request_reset_password' in auth.settings.actions_disabled:
+                           form.add_button(T('Forget'),URL(args='request_reset_password'),_class='btn btn-default')
+                       pass
+                   pass
+                   =form
+               }}
+           </div>
+       </md-card-content>
+     </md-card>
+</div>
+</md-content>
+{{block page_js}}
+<script>
+    jQuery("#web2py_user_form input:visible:enabled:first").focus();
+{{if request.args(0)=='register':}}
+    web2py_validate_entropy(jQuery('#auth_user_password'),100);
+{{elif request.args(0)=='change_password':}}
+    web2py_validate_entropy(jQuery('#no_table_new_password'),100);
+{{pass}}
+</script>
+{{end page_js}}
