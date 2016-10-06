@@ -43,6 +43,16 @@ def user():
     """
     return dict(form=auth())
 
+def map():
+	return dict(
+	googlemap_key='IzaSyBj6iTbEOvpPuxn8I4jjuRC2Oq4j6m16FU',
+	center_latitude =16.8583904,
+	center_longitude=96.0677832,
+	scale = 7,
+	maker= lambda poin: A(row.id, _href=''),
+	points= db(db.point).select()
+)
+
 
 latitude = longitude = ''
 def getGPS():
@@ -81,6 +91,17 @@ def question():
     )
     response.moduleTitle = 'Question Type'
     return dict(form=grid)
+
+def location():
+	form=SQLFORM.factory(Field('latitude', label='Latitude', requires=IS_NOT_EMPTY()),
+			Field('longitude', label='Longitude', requires=IS_NOT_EMPTY()),
+			Field('search'), _class='form-search'
+	)
+	#form.custom.widget.search['_class'] = 'input-long search-query'
+	#form.custom.submit['_value'] = 'Search'
+	#form.custom.submit['_class'] = 'btn'
+	response.moduleTitle = 'Locaiton'
+	return dict(form=form)
 
 def survey():
     def redirectToDetail(form):

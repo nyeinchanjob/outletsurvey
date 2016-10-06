@@ -57,7 +57,7 @@
                     </div>
                     {{if hasattr(T,'get_possible_languages_info'):}}
                     <md-input-container class="" style="background-color:#F44336;" >
-                        <select name="adminlanguage" onchange="var date = new       Date();cookieDate=date.setTime(date.getTime()+(100*24*60*60*1000));document.cookie='adminLanguage='+this.options[this.selectedIndex].id+'; expires='+cookieDate+'; path=/'; window.location.pathname= 'outletsurvey/'+ this.options[this.selectedIndex].value;"
+                        <select name="adminlanguage" onchange="var date = new       Date();cookieDate=date.setTime(date.getTime()+(100*24*60*60*1000));document.cookie='adminLanguage='+this.options[this.selectedIndex].id+'; expires='+cookieDate+'; path=/'; window.location.pathname= '{{=request.application}}/'+ this.options[this.selectedIndex].value;"
                         class="btn btn-default">
                             {{for langinfo in sorted([(code,info[1]) for code,info in T.get_possible_languages_info().iteritems() if (code != 'default') and (code in ['my-mm', 'en-us'])   ]):}}
                                 <option {{=T.accepted_language==langinfo[0] and 'selected' or ''}} {{='id='+langinfo[0]}} {{='value='+langinfo[0]}} >{{=langinfo[1]}}</option>

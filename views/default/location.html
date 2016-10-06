@@ -1,0 +1,59 @@
+{{extend 'mylayout.html'}}
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyB6t9AbbpZkB_03IDrjAua2jrQk3-TQgeE&callback=initMap()" async defer></script>
+<script src="{{=URL('static','js/gmaps.js')}}"></script>
+<div flex>
+<md-content flex layout-fill  layout="column" ng-cloak="" class="body-color">
+    <div flex style="margin:10px;" layout="column">
+        <md-card name="productDetail">
+          <!-- <md-toolbar class="md-warn"> -->
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-title" flex>{{=T(response.moduleTitle)}}</span>
+              </md-card-title-text>
+            </md-card-title>
+          <!-- </md-toolbar> -->
+          <!-- <md-dialog-content> -->
+            <md-card-content class="md-dialog-content" layout="column" flex>
+                <script src="http://maps.google.com/maps/api/js?key=AIzaSyB6t9AbbpZkB_03IDrjAua2jrQk3-TQgeE&callback=initMap()" async defer></script>
+                    <script src="{{=URL('static','js/gmaps.js')}}"></script>
+                    <div>
+						{{=form}}                       
+                       
+                       
+                    </div>
+       
+       
+                    <div id="map" style="height:400px;width:800px"></div>
+            </md-card-content>
+          <!-- </md-dialog-content> -->
+        </md-card>
+    </div>
+</md-content>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var map;
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 16.8583904, lng: 96.0677832},
+        zoom: 8
+    });
+}
+</script>
+{{pass}}
