@@ -21,7 +21,7 @@
               </md-card-title-text>
             </md-card-title>
             <md-card-content class="md-dialog-content" layout="column" flex>
-                    <div id="map" style="height:400px;width:800px"></div>
+                    <div id="map" layout-align="center center" style="height:400px;width:280px;"></div>
             </md-card-content>
         </md-card>
     </div>
@@ -36,13 +36,23 @@ window.initMap = function() {
           lat: position.coords.latitude,
           lng: position.coords.longitude
         };
+        var survey_latitude = $('#survey_latitude').text();
+        var survey_latitude = $('#survey_longitude').text();
+        console.log(survey_latitude);
+        if (survey_latitude.length>0) {
+            pos = {
+                lat: survey_latitude,
+                lng: survey_longitude
+            };
+        }
         $("#survey_latitude").val(pos.lat);
         $("#survey_longitude").val(pos.lng);
-        map.setCenter(pos);
+
         map = new google.maps.Map(document.getElementById('map'), {
             center: pos,
             zoom: 14
         });
+        map.setCenter(pos);
         marker = new google.maps.Marker({
               position: pos,
               map: map

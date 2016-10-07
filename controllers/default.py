@@ -43,29 +43,6 @@ def user():
     """
     return dict(form=auth())
 
-def map():
-	return dict(
-	googlemap_key='IzaSyBj6iTbEOvpPuxn8I4jjuRC2Oq4j6m16FU',
-	center_latitude =16.8583904,
-	center_longitude=96.0677832,
-	scale = 7,
-	maker= lambda poin: A(row.id, _href=''),
-	points= db(db.point).select()
-)
-
-
-latitude = longitude = ''
-def getGPS():
-    form=SQLFORM.factory(Field('search'), _class='form-search')
-    form.custom.widget.search['_class'] = 'input-long search-query'
-    form.custom.submit['_value'] = 'Search'
-    form.custom.submit['_class'] = 'btn'
-    if form.accepts(request):
-        address=form.vars.search
-        (latitude, longitude) = geocode(address)
-    else:
-        (latitude, longitude) = ('','')
-    return dict(form=form, latitude=latitude, longitude=longitude)
 
 def outlet():
     grid = SQLFORM.smartgrid(
@@ -74,7 +51,8 @@ def outlet():
         csv=False,
         details=False,
         orderby =~db.outlet.id,
-        linked_tables=False
+        linked_tables=False,
+		editable=auth.has_membership('Admin', 'Manger')
     )
     response.moduleTitle = 'Outlet Type'
     return dict(form=grid)
@@ -115,7 +93,10 @@ def survey():
             csv=False,
             details=False,
             paginate=20,
-            orderby=~db.survey.id|db.survey.city_en)
+            orderby=~db.survey.id|db.survey.city_en,
+            user_signature=False,
+            oncreate=redirectToDetail,
+            onupdate=redirectToDetail)
     response.moduleTitle = 'Outlet Information'
     return dict(form=form)
 
