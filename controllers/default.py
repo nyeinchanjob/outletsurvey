@@ -51,8 +51,8 @@ def outlet():
         csv=False,
         details=False,
         orderby =~db.outlet.id,
-        linked_tables=False,
-		editable=auth.has_membership('Admin', 'Manger')
+        linked_tables=False
+		# editable=auth.has_membership('Admin', 'Manager')
     )
     response.moduleTitle = 'Outlet Type'
     return dict(form=grid)

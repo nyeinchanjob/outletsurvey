@@ -70,7 +70,7 @@ db.define_table("survey",
 	format=lambda r: '%s [%s]' % (r.outlet_en, r.city_en)
 )
 
-db.survey.outlet_type.requires=IS_IN_DB(db, db.outlet.id, '%(name)s')
+db.survey.outlet_type.requires=IS_IN_DB(db(db.outlet.is_active==True), db.outlet.id, '%(name)s')
 
 db.define_table("survey_detail",
     Field("survey_id", "reference survey", readable=False),
@@ -78,7 +78,7 @@ db.define_table("survey_detail",
     Field("answer", "integer", requires=IS_NOT_EMPTY(), label="Answer")
 )
 
-db.survey_detail.question_id.requires=IS_IN_DB(db, db.question.id, '%(name)s')
+db.survey_detail.question_id.requires=IS_IN_DB(db(db.question.is_active==True), db.question.id, '%(name)s')
 
 ## default user root
 if db(db.auth_user).count()<1:
