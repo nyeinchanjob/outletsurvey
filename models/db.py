@@ -92,6 +92,12 @@ plugins = PluginManager()
 # -------------------------------------------------------------------------
 # create all tables needed by auth if not custom tables
 # -------------------------------------------------------------------------
+auth.settings.extra_fields['auth_user'] = [Field('custom_password', 'string',
+    label="Password For App", requires=[IS_NOT_EMPTY(
+        error_message="This field must be same with Password. If you may change Password, Please you must update this as Password value"),
+        IS_EQUAL_TO(request.vars.password)]),
+        Field('department', 'string', label="Department"),
+        Field('position_name', 'string', label="Position")]
 auth.define_tables(username=False, signature=False)
 
 # -------------------------------------------------------------------------
@@ -110,6 +116,8 @@ mail.settings.ssl = myconf.get('smtp.ssl') or False
 auth.settings.registration_requires_verification = False
 auth.settings.registration_requires_approval = False
 auth.settings.reset_password_requires_verification = True
+auth.settings.create_user_groups = None
+auth.settings.everybody_group_id = 3
 
 # -------------------------------------------------------------------------
 # Define your tables below (or better in another model file) for example

@@ -38,13 +38,15 @@ db.define_table("question",
 )
 
 db.define_table("survey",
-    Field("area", "string", requires=IS_NOT_EMPTY(), label="Area"),
+    Field("area", "string", label="Area"),
     Field("city_mm", "string", label="City(MM)"),
     Field("city_en", "string", label="City(EN)"),
     Field("township_mm", "string", label="Township(MM)"),
     Field("township_en", "string", label="Township(EN)"),
     Field("ward_mm", "string", label="Ward(MM)"),
     Field("ward_en", "string", label="Ward(EN)"),
+    Field("street_mm", "string", label="No And Street (MM)"),
+    Field("street_en", "string", label="No And Street (EN)"),
     Field("outlet_type", "reference outlet", label="Outlet Type"),
     Field("outlet_mm", "string", label="Outlet(MM)", requires=IS_NOT_EMPTY()),
     Field("outlet_en", "string", label="Outlet(EN)", requires=IS_NOT_EMPTY()),
@@ -56,8 +58,8 @@ db.define_table("survey",
     Field("image1", "upload", uploadfolder=os.path.join('uploads/image1')),
     Field("image2", "upload", uploadfolder=os.path.join('uploads/image2')),
     Field("image3", "upload", uploadfolder=os.path.join('uploads/image3')),
-    Field("latitude", "string", label="Latitude", requires=IS_NOT_EMPTY()),
-    Field("longitude", "string", label="Longitude", requires=IS_NOT_EMPTY()),
+    Field("latitude", "double", label="Latitude", requires=IS_NOT_EMPTY()),
+    Field("longitude", "double", label="Longitude", requires=IS_NOT_EMPTY()),
     Field('is_active', 'boolean', default=True, label="Active"),
 	Field('created_on', 'datetime', default=request.now,
 			readable=True, writable=False),
@@ -80,6 +82,71 @@ db.define_table("survey_detail",
 
 db.survey_detail.question_id.requires=IS_IN_DB(db(db.question.is_active==True), db.question.id, '%(name)s')
 
+
+def questionlist(row):
+    questions = db((db.survey_detail.survey_id == row.survey.id) &
+                 (db.survey_detail.question_id == db.question.id)).select(
+                    db.survey_detail.id,
+                    db.question.name,
+                    db.survey_detail.answer
+                 )
+    _ids = [str(question.survey_detail.id) for question in questions]
+    return ",".join(_ids)
+
+
+max_cols = 30
+if db(db.question).count()>1:
+    max_cols = db(db.question).count()
+
+_previous_id = 0
+_counter = 0
+
+def subquestionlist(row):
+    global max_cols, _counter, _previous_id
+    splitted = row.survey.questions.split(",")
+    len_splitted = len(splitted)
+    if len_splitted:
+        if not splitted[-1]:
+            len_splitted = 0
+
+    if len_splitted:
+        tmp_row = [ splitted[i] if len_splitted > i else None for i in range(max_cols)]
+    else:
+        tmp_row = [ None for i in range(max_cols)]
+
+    # print "subquestionlist >>>", _counter, 'survey_id:', row.survey.id, 'splitted:', len_splitted
+
+    if not _previous_id:
+        _previous_id = row.survey.id
+    else:
+        if _previous_id != row.survey.id:
+            _previous_id = row.survey.id
+            _counter = 0
+        else:
+            _counter += 1
+
+    if len(tmp_row) > _counter:
+        value = tmp_row[_counter]
+    else:
+        value = -1
+
+    row = db((db.survey_detail.id == value) &
+                 (db.survey_detail.question_id == db.question.id)).select(
+                    db.survey_detail.id,
+                    db.question.name,
+                    db.survey_detail.answer
+                 ).last()
+    if row:
+        return "%s %s" % (row.question.name, row.survey_detail.answer)
+    else:
+        return ""
+
+db.survey.questions = Field.Virtual("questions", questionlist)
+for row in db(db.question).select():
+    _field_name = "_".join(row.name.replace("(", "").replace(")", "").replace("-", "").replace("/", "_").split(" "))
+    # print _field_name
+    db.survey[_field_name] = Field.Virtual(_field_name, subquestionlist)
+
 ## default user root
 if db(db.auth_user).count()<1:
     db.auth_group.bulk_insert([
@@ -98,6 +165,7 @@ if db(db.auth_user).count()<1:
 			first_name='Nyein',
 			last_name='Chan',
 			email='nyeinchan@coca-cola.com.mm',
+            custom_password = 'Basn4@C01',
 			password=db.auth_user.password.validate('Basn4@C01')[0]
 		)
 	])

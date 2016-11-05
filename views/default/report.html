@@ -1,0 +1,21 @@
+{{extend 'mylayout.html'}}
+<div flex>
+<md-content flex layout-fill  layout="column" ng-cloak="" class="body-color">
+    <div flex style="margin:10px;" layout="column">
+        <md-card name="productDetail">
+          <!-- <md-toolbar class="md-warn"> -->
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-title" flex>{{=T(response.moduleTitle)}}</span>
+              </md-card-title-text>
+            </md-card-title>
+          <!-- </md-toolbar> -->
+          <!-- <md-dialog-content> -->
+            <md-card-content class="md-dialog-content" layout="column" flex>
+                <div flex>{{=form}}</div>
+            </md-card-content>
+          <!-- </md-dialog-content> -->
+        </md-card>
+    </div>
+</md-content>
+</div>
