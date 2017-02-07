@@ -147,3 +147,14 @@ ALTER TABLE auth_user ADD position_name VARCHAR(512);
 success!
 success!
 success!
+timestamp: 2016-11-07T15:16:38.879239
+ALTER TABLE survey ADD cooler_model VARCHAR(512);
+success!
+timestamp: 2016-11-07T15:16:39.070189
+ALTER TABLE survey ADD cooler_sn VARCHAR(512);
+success!
+success!
+timestamp: 2016-12-08T10:54:11.411194
+ALTER TABLE survey ADD outlet_id VARCHAR(512);
+success!
+success!

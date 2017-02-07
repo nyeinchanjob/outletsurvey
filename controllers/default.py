@@ -163,8 +163,10 @@ def report():
                              db.survey.latitude,
                              db.survey.longitude,
                              db.survey.created_on,
-                             db.question.name,
-                             db.survey.questions,
+                             db.survey.created_by,
+                             db.survey.cooler_model,
+                             db.survey.cooler_sn    ,
+                             db.question.name
                             ] + virtual_columns,
                             details=False,
                             paginate=30,
@@ -192,6 +194,8 @@ def about():
 
 @request.restful()
 def api():
+    response.headers['Access-Control-Allow-Origin'] = "*"
+    response.headers['Access-Control-Allow-Credentials'] = 'true'
     response.view = 'generic.' + (request.extension or 'json')
     def GET(*args, **vars):
         patterns = 'auto'
@@ -201,7 +205,7 @@ def api():
         else:
             raise HTTP(parser.status,parser.error)
 
-    # @auth.requires_login()
+    @auth.requires_login()
     def POST(table_name, **vars):
         return db[table_name].validate_and_insert(**vars)
 

@@ -39,6 +39,7 @@ db.define_table("question",
 
 db.define_table("survey",
     Field("area", "string", label="Area"),
+    Field("outlet_id", "string", label="Area"),
     Field("city_mm", "string", label="City(MM)"),
     Field("city_en", "string", label="City(EN)"),
     Field("township_mm", "string", label="Township(MM)"),
@@ -55,6 +56,8 @@ db.define_table("survey",
     Field("phone1", "string", label="Phone1"),
     Field("phone2", "string", label="Phone2"),
     Field("phone3", "string", label="Phone3"),
+    Field("cooler_model", "string", label="Cooler Model"),
+    Field("cooler_sn", "string", label="Cooler S/N"),
     Field("image1", "upload", uploadfolder=os.path.join('uploads/image1')),
     Field("image2", "upload", uploadfolder=os.path.join('uploads/image2')),
     Field("image3", "upload", uploadfolder=os.path.join('uploads/image3')),
@@ -137,7 +140,7 @@ def subquestionlist(row):
                     db.survey_detail.answer
                  ).last()
     if row:
-        return "%s %s" % (row.question.name, row.survey_detail.answer)
+        return "%s" % (row.survey_detail.answer)
     else:
         return ""
 
